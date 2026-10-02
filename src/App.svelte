@@ -12,7 +12,11 @@
   let scrollRoot = $state();
 </script>
 
-<div class="app-shell h-dvh w-full flex flex-col landscape-phone:flex-row md:flex-row bg-app text-ink overflow-hidden">
+<!-- px-*: an even bezel on both screen edges, so the nav rail and the scrollbar never sit flush against the glass -->
+<div
+  class="app-shell h-dvh w-full flex flex-col landscape-phone:flex-row md:flex-row bg-app text-ink overflow-hidden
+    px-1 landscape-phone:px-1.5 md:px-2 xl:px-3 2xl:px-6"
+>
   <SectionNav {scrollRoot} />
 
   <!-- relative: absolutely positioned descendants (sr-only labels) must live inside this scroller. Otherwise they
