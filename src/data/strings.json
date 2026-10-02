@@ -66,6 +66,10 @@
     "publicCopy": "Public copy",
     "mirror": "Mirror"
   },
+  "swipeRow": {
+    "back": "Scroll back:",
+    "forward": "Scroll forward:"
+  },
   "footer": {
     "disclaimer": "Compiled from public court filings and published reporting. Allegations remain unproven."
   }

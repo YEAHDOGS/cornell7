@@ -7,6 +7,7 @@
   import DossierCard from "./DossierCard.svelte";
   import DossierDetail from "./DossierDetail.svelte";
   import SlidePanel from "../ui/SlidePanel.svelte";
+  import SwipeRow from "../ui/SwipeRow.svelte";
   import { buildFileLabels } from "./dossier.js";
   import { dossierView, openDossier, closeDossier } from "../../lib/dossierView.svelte.js";
   import PEOPLE from "../../data/people.json";
@@ -23,10 +24,10 @@
 
   const selected = $derived(PEOPLE_LIST.find((p) => p.id === dossierView.id) || null);
 
-  /* Grid columns per row: 8 people in the first row, 5 in the second */
+  /* Grid columns per row from sm: up (8 people in the first row, 5 in the second). Portrait phones swipe instead. */
   const GRID_CLASS = {
-    individual: "grid-cols-2 sm:grid-cols-4 landscape-phone:grid-cols-4 md:grid-cols-4 2xl:grid-cols-8",
-    institutional: "grid-cols-2 sm:grid-cols-3 landscape-phone:grid-cols-5 md:grid-cols-5 2xl:grid-cols-8",
+    individual: "sm:grid-cols-4 landscape-phone:grid-cols-4 md:grid-cols-4 2xl:grid-cols-8",
+    institutional: "sm:grid-cols-3 landscape-phone:grid-cols-5 md:grid-cols-5 2xl:grid-cols-8",
   };
 </script>
 
@@ -39,13 +40,16 @@
   {#each GROUPS as group (group.key)}
     <div class="flex flex-col gap-2 2xl:gap-4">
       <h3 class="font-mono text-[10px] sm:text-xs 2xl:text-lg tracking-[0.18em] uppercase text-muted">{group.title}</h3>
-      <ul class="grid gap-3 landscape-phone:gap-2 lg:gap-4 2xl:gap-6 {GRID_CLASS[/** @type {'individual' | 'institutional'} */ (group.key)]}">
-        {#each group.people as person (person.id)}
-          <li>
-            <DossierCard {person} fileLabel={FILE_LABELS.get(person.id) || ""} onopen={() => openDossier(person.id)} />
-          </li>
-        {/each}
-      </ul>
+      <SwipeRow label={group.title}>
+        <ul class="flex w-max sm:grid sm:w-auto gap-3 landscape-phone:gap-2 lg:gap-4 2xl:gap-6 {GRID_CLASS[/** @type {'individual' | 'institutional'} */ (group.key)]}">
+          {#each group.people as person (person.id)}
+            <!-- 38vw on phones: two and a bit tiles in view, so the next one peeks in -->
+            <li class="shrink-0 w-[38vw] snap-start sm:w-auto">
+              <DossierCard {person} fileLabel={FILE_LABELS.get(person.id) || ""} onopen={() => openDossier(person.id)} />
+            </li>
+          {/each}
+        </ul>
+      </SwipeRow>
     </div>
   {/each}
 </section>
