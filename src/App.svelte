@@ -15,7 +15,10 @@
 <div class="app-shell h-dvh w-full flex flex-col landscape-phone:flex-row md:flex-row bg-app text-ink overflow-hidden">
   <SectionNav {scrollRoot} />
 
-  <main bind:this={scrollRoot} class="flex-1 min-w-0 min-h-0 overflow-y-auto overflow-x-hidden overscroll-contain scroll-smooth">
+  <!-- relative: absolutely positioned descendants (sr-only labels) must live inside this scroller. Otherwise they
+       hang off the page body, give the document its own scroll overflow, and anchor jumps to the last section scroll
+       the whole layout up past the viewport. -->
+  <main bind:this={scrollRoot} class="relative flex-1min-w-0 min-h-0 overflow-y-auto overflow-x-hidden overscroll-contain scroll-smooth">
     <div
       class="mx-auto max-w-7xl 2xl:max-w-[2400px] flex flex-col gap-12 sm:gap-14 landscape-phone:gap-10 2xl:gap-24
         px-4 py-6 sm:px-6 landscape-phone:px-4 landscape-phone:py-4 md:px-8 md:py-10 xl:px-12 2xl:px-20 2xl:py-16"
@@ -34,10 +37,9 @@
 </div>
 
 <style>
-  /* h-dvh needs Chrome 108+; older app-tier browsers (see APP_CSS_TARGET) fall back to vh */
+  /* h-dvh needs Chrome 108+; older browsers fall back to vh */
   @supports not (height: 100dvh) {
     .app-shell {
       height: 100vh;
     }
-  }
-</style>
+  }</style>

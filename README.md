@@ -73,7 +73,8 @@ Upload each with `Content-Type: application/pdf`, `Content-Disposition: inline` 
 
 ## Browser support
 
-No legacy plugin and no polyfills. There are two tiers:
+One version of the site for every browser, down to Chrome 40. No legacy plugin and no polyfills.
 
-- **The app:** Chrome/Edge 99+, Firefox 97+, Safari 15.4+. Vite lowers JS (Oxc) and CSS (Lightning CSS) to these targets, which are set in `vite.config.js`.
-- **Static fallback:** everything older, down to Chrome 40, plus visitors with JavaScript off. This is plain HTML in `index.html`. If the app fails to load in a modern browser, the same page shows a "please reload" message instead.
+- **HTML:** `vite-prerender.js` renders `App.svelte` into `index.html` (in dev and in the build), so the whole case file is plain HTML before any JS runs. `src/main.js` hydrates it in place to add the dossier panel, the timeline filter and nav highlighting. Browsers without module scripts (or with JS off) read the same page, just without those interactions.
+- **CSS:** Tailwind is imported without `@layer` and with `theme(inline)` (see the top of `src/app.css`), and Lightning CSS lowers it to Chrome 40 (`CSS_TARGET` in `vite.config.js`). Layout features old engines can't do (grid, flex gap, `dvh`, container units) fall back to normal flow, or are gated with `@supports` where the fallback has to look right.
+- **JS:** modern only (`JS_TARGET`), since it's an enhancement on top of the prerendered page.

@@ -29,47 +29,10 @@
 </head>
 
 <body class="bg-app text-ink">
-  <div id="app"></div>
+  <!-- vite-prerender.js renders App.svelte into the outlet below; src/main.js hydrates it -->
+  <div id="app"><!--app-html--></div>
 
-  <!-- Static fallback for browsers too old to run the app (Potato Target: Chrome 40), and for no-JS visitors.
-       Plain HTML only. Styles: src/styles/legacy-fallback.css. Text mirrors src/App.svelte. -->
-  <div id="legacy-fallback" class="legacy-fallback">
-    <img class="legacy-fallback__logo" src="/src/assets/dogs-logo-cropped.png" alt="DOGS dog head logo" width="540"
-      height="534" />
-    <div class="legacy-fallback__text">
-      <h1 class="legacy-fallback__title">Jane Doe v. Cornell University</h1>
-      <p class="legacy-fallback__tagline legacy-fallback__tagline--legacy">This case file needs a newer browser with JavaScript enabled. Allegations in the civil complaint remain unproven.</p>
-      <p class="legacy-fallback__tagline legacy-fallback__tagline--crash">Something went wrong loading the case file. Please reload the page.</p>
-      <a class="legacy-fallback__badge" href="https://wearedogs.net" target="_blank" rel="noopener noreferrer">
-        <img src="/src/assets/made-by-dogs-small.png" alt="This product was made by DOGS" width="480" height="159" />
-      </a>
-    </div>
-  </div>
-  <!-- Must stay ES5: this is the only script the Potato Target runs. Hides the fallback before first paint on
-       browsers that can run the app (CSS cascade layers = the Tailwind v4 floor, see APP_CSS_TARGET in vite.config.js).
-       If the app then fails before mounting (module load/eval error), the fallback returns in "crashed" mode, which
-       swaps the "needs a newer browser" text for a reload prompt. src/main.js calls window.__appMounted() on success,
-       which detaches the error net and re-hides the fallback (also after a Vite HMR recovery). -->
-  <script>
-    (function () {
-      var fallback = document.getElementById('legacy-fallback');
-      if (!window.CSSLayerBlockRule) return;
-      fallback.setAttribute('hidden', '');
-      function showCrash() {
-        if (document.getElementById('app').firstChild) return;
-        fallback.className = 'legacy-fallback legacy-fallback--crashed';
-        fallback.removeAttribute('hidden');
-      }
-      window.__appLoadFailed = showCrash;
-      window.addEventListener('error', showCrash);
-      window.__appMounted = function () {
-        window.removeEventListener('error', showCrash);
-        fallback.setAttribute('hidden', '');
-      };
-    })();
-  </script>
-
-  <script type="module" src="/src/main.js" onerror="window.__appLoadFailed && window.__appLoadFailed()"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
