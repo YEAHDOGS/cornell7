@@ -10,7 +10,8 @@ import CONFIG from "../data/config.json";
  * @property {string} [date]
  * @property {string} title
  * @property {string} url - Original/public location ("" when only our hosted copy exists).
- * @property {string} [doc] - File name of our self-hosted copy under CONFIG.docsBaseUrl (R2). Preferred over `url`.
+ * @property {string} [doc] - File name of our self-hosted copy: site-relative (starts with "/docs/")
+ *   or under CONFIG.docsBaseUrl (R2). Preferred over `url`.
  * @property {string} [mirror] - Secondary public copy.
  *
  * @typedef {{ text: string } | { text: string, href: string } | { text: string, dossier: string }} TextSegment - Plain text, a citation link, or a dossier mention (timeline only).
@@ -30,7 +31,9 @@ export const SOURCE_LIST = /** @type {any} */ (SOURCES);
  * @returns {string}
  */
 export function sourceHref(source, page) {
-  const base = source.doc ? CONFIG.docsBaseUrl + source.doc : source.url;
+  const base = source.doc
+    ? (source.doc.startsWith("/") ? source.doc : CONFIG.docsBaseUrl + source.doc)
+    : source.url;
   return page ? `${base}#page=${page}` : base;
 }
 
