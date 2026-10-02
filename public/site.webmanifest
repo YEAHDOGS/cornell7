@@ -6,9 +6,19 @@
   "scope": "/",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/favicon.svg?v=2",
       "sizes": "any",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-32x32.png?v=2",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png?v=2",
+      "sizes": "16x16",
+      "type": "image/png"
     }
   ],
   "theme_color": "#07080b",
