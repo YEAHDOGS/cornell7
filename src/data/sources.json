@@ -1,24 +1,206 @@
 [
-  { "id": "complaint", "kind": "filing", "short": "Complaint", "doc": "jane-doe-v-cornell-complaint.pdf", "publisher": "N.Y. Sup. Ct., N.Y. County", "date": "Sept 14, 2026", "title": "Jane Doe v. Cornell University, Inc., et al.: Summons & Complaint (101 pp.)", "url": "https://www.fingerlakes1.com/wp-content/uploads/2026/09/09-14-16-Lawsuit.pdf", "mirror": "https://www.courthousenews.com/wp-content/uploads/2026/09/doe-cornell-new-york-supreme.pdf" },
-  { "id": "cupd-transcript", "kind": "filing", "short": "CUPD transcript", "doc": "cupd-interview-transcript-2024-11.pdf", "publisher": "Cornell University Police Department", "date": "Nov 14–15, 2024", "title": "Recorded interview of Jane Doe (approx. 120 pp.)", "url": "" },
-  { "id": "sworn-statement", "kind": "filing", "short": "Sworn statement", "doc": "cupd-sworn-statement-2024-11.pdf", "publisher": "Cornell University Police Department", "date": "Nov 2024", "title": "Six-page sworn statement of Jane Doe", "url": "" },
-  { "id": "da", "kind": "official", "short": "DA statement", "publisher": "Tompkins County District Attorney", "date": "Sept 28, 2026", "title": "District Attorney statement regarding Jane Doe v. Cornell University et al.", "url": "https://www.tompkinscountyny.gov/News-articles/District-Attorney-statement-regarding-Jane-Doe-v.-Cornell-University-et-al" },
-  { "id": "cu-2024", "kind": "official", "short": "Cornell 2024", "publisher": "Cornell University", "date": "Nov 26, 2024", "title": "Update on disturbing allegations of sexual violence", "url": "https://statements.cornell.edu/2024/20241126-update.cfm" },
-  { "id": "cu-faq", "kind": "official", "short": "Cornell FAQ", "publisher": "Cornell University", "date": "Sept 29, 2026", "title": "FAQ on the Chi Phi allegations", "url": "https://statements.cornell.edu/2026/20260929-faq.cfm" },
-  { "id": "nyt", "kind": "citation", "short": "NYT", "publisher": "The New York Times (via Irish Times)", "date": "Oct 1, 2026", "title": "How the plaintiff went from shame to seeking justice", "url": "https://www.irishtimes.com/world/us/2026/10/01/how-cornell-university-alleged-rape-victim-went-from-shame-to-seeking-justice/" },
-  { "id": "cbs-texts", "kind": "citation", "short": "CBS: texts", "publisher": "CBS News", "date": "Oct 2, 2026", "title": "Jane Doe's account, from text messages and interview transcripts", "url": "https://www.cbsnews.com/news/jane-doe-cornell-university-rape-allegations-text-messages-transcripts/" },
-  { "id": "cbs-details", "kind": "citation", "short": "CBS: details", "publisher": "CBS News", "date": "Oct 2, 2026", "title": "What we know about the Chi Phi case", "url": "https://www.cbsnews.com/news/cornell-university-rape-allegations-chi-phi-fraternity-details/" },
-  { "id": "cbs-snap", "kind": "citation", "short": "CBS NY: Snapchat", "publisher": "CBS New York", "date": "Sept 29, 2026", "title": "Video of the Chi Phi Snapchat conversation", "url": "https://www.cbsnews.com/newyork/news/cornell-university-rape-allegation-chi-phi-snapchat-conversation/" },
-  { "id": "abc", "kind": "citation", "short": "ABC timeline", "publisher": "ABC News", "date": "Oct 1, 2026", "title": "Timeline of the alleged fraternity house rape investigation", "url": "https://abcnews.com/US/timeline-alleged-cornell-university-fraternity-house-rape-investigation/story?id=136884431" },
-  { "id": "nbc", "kind": "citation", "short": "NBC: Kretzschmar", "publisher": "NBC News", "date": "Oct 1, 2026", "title": "Investigative records on how an accused student responded", "url": "https://www.nbcnews.com/news/us-news/investigative-records-give-insight-accused-cornell-student-responded-a-rcna600987" },
-  { "id": "sun-suit", "kind": "citation", "short": "Daily Sun", "publisher": "The Cornell Daily Sun", "date": "Sept 2026", "title": "Coverage of the lawsuit", "url": "https://www.cornellsun.com/article/2026/09/tccsuykuvb4z" },
-  { "id": "sun-faq", "kind": "citation", "short": "Sun: FAQ vs. DA", "publisher": "The Cornell Daily Sun", "date": "Sept 2026", "title": "Cornell's FAQ contradicts the D.A.", "url": "https://www.cornellsun.com/article/2026/09/cornell-releases-faq-on-alleged-chi-phi-gang-rape-contradicts-d-a" },
-  { "id": "sun-ag", "kind": "citation", "short": "Sun: special prosecutor", "publisher": "The Cornell Daily Sun", "date": "Oct 2026", "title": "Attorney General appointed special prosecutor", "url": "https://www.cornellsun.com/article/2026/10/gov-kathy-hochul-appoints-new-york-attorney-general-to-serve-as-special-prosecutor-in-investigation-of-alleged-chi-phi-gang-rape" },
-  { "id": "sun-essays", "kind": "citation", "short": "Sun: sanctions", "publisher": "The Cornell Daily Sun", "date": "Sept 2026", "title": "Cornell denies defendants only wrote essays", "url": "https://www.cornellsun.com/article/2026/09/cornell-denies-that-defendants-in-alleged-chi-phi-gang-rape-only-wrote-essays-confirms-expulsions" },
-  { "id": "time", "kind": "citation", "short": "TIME", "publisher": "TIME", "date": "Sept 30, 2026", "title": "The case and the question of intoxicated consent", "url": "https://time.com/article/2026/09/30/cornell-fraternity-rape-case-title-ix-new-york-intoxicated-consent/" },
-  { "id": "newsweek", "kind": "citation", "short": "Newsweek", "publisher": "Newsweek", "date": "Sept 2026", "title": "Investigation reopened as a defendant's lawyer responds", "url": "https://www.newsweek.com/cornell-gang-rape-investigation-reopened-as-defendants-lawyer-hits-back-12496254" },
-  { "id": "npr", "kind": "citation", "short": "NPR", "publisher": "NPR (via Connecticut Public)", "date": "Sept 28, 2026", "title": "Prosecutors reopen the case: what we know", "url": "https://www.ctpublic.org/2026-09-28/prosecutors-are-reopening-a-cornell-fraternity-rape-case-heres-what-we-know" },
-  { "id": "kcm", "kind": "citation", "short": "Katie Couric Media", "publisher": "Katie Couric Media", "date": "Sept 2026", "title": "What we know about the lawsuit", "url": "https://katiecouric.com/news/national-news/cornell-sexual-assault-lawsuit-what-we-know/" },
-  { "id": "fl1", "kind": "citation", "short": "FingerLakes1", "publisher": "FingerLakes1", "date": "Sept 21, 2026", "title": "Lawsuit accuses Cornell, Greek organizations and students", "url": "https://www.fingerlakes1.com/2026/09/21/lawsuit-accuses-cornell-greek-organizations-and-students-in-alleged-2024-sexual-assault/" },
-  { "id": "tmz-ibt", "kind": "citation", "short": "IBTimes (TMZ)", "publisher": "IBTimes UK, citing TMZ", "date": "Sept 30, 2026", "title": "Prosecutors reopen the investigation", "url": "https://www.ibtimes.co.uk/prosecutors-reopen-cornell-sexual-assault-investigation-1822961" }
+ {
+  "id": "complaint",
+  "kind": "filing",
+  "short": "Complaint",
+  "doc": "jane-doe-v-cornell-complaint.pdf",
+  "publisher": "N.Y. Sup. Ct., N.Y. County",
+  "date": "Sept 14, 2026",
+  "title": "Jane Doe v. Cornell University, Inc., et al.: Summons & Complaint (101 pp.)",
+  "url": "https://www.fingerlakes1.com/wp-content/uploads/2026/09/09-14-16-Lawsuit.pdf",
+  "mirror": "https://www.courthousenews.com/wp-content/uploads/2026/09/doe-cornell-new-york-supreme.pdf"
+ },
+ {
+  "id": "cupd-transcript",
+  "kind": "filing",
+  "short": "CUPD transcript",
+  "doc": "cupd-interview-transcript-2024-11.pdf",
+  "publisher": "Cornell University Police Department",
+  "date": "Nov 14–15, 2024",
+  "title": "Recorded interview of Jane Doe (approx. 120 pp.)",
+  "url": ""
+ },
+ {
+  "id": "sworn-statement",
+  "kind": "filing",
+  "short": "Sworn statement",
+  "doc": "cupd-sworn-statement-2024-11.pdf",
+  "publisher": "Cornell University Police Department",
+  "date": "Nov 2024",
+  "title": "Six-page sworn statement of Jane Doe",
+  "url": ""
+ },
+ {
+  "id": "da",
+  "kind": "official",
+  "short": "DA statement",
+  "publisher": "Tompkins County District Attorney",
+  "date": "Sept 28, 2026",
+  "title": "District Attorney statement regarding Jane Doe v. Cornell University et al.",
+  "url": "/docs/da-public-statement-2026-09-28.pdf",
+  "originalUrl": "https://www.tompkinscountyny.gov/files/assets/county/v/1/district-attorney/documents/district-attorney-public-statement-9-28-26.pdf",
+  "note": "PDF hosted on this site; original at Tompkins County"
+ },
+ {
+  "id": "cu-2024",
+  "kind": "official",
+  "short": "Cornell 2024",
+  "publisher": "Cornell University",
+  "date": "Nov 26, 2024",
+  "title": "Update on disturbing allegations of sexual violence",
+  "url": "https://statements.cornell.edu/2024/20241126-update.cfm"
+ },
+ {
+  "id": "cu-faq",
+  "kind": "official",
+  "short": "Cornell FAQ",
+  "publisher": "Cornell University",
+  "date": "Sept 29, 2026",
+  "title": "FAQ on the Chi Phi allegations",
+  "url": "https://statements.cornell.edu/2026/20260929-faq.cfm"
+ },
+ {
+  "id": "nyt",
+  "kind": "citation",
+  "short": "NYT",
+  "publisher": "The New York Times (via Irish Times)",
+  "date": "Oct 1, 2026",
+  "title": "How the plaintiff went from shame to seeking justice",
+  "url": "https://www.irishtimes.com/world/us/2026/10/01/how-cornell-university-alleged-rape-victim-went-from-shame-to-seeking-justice/"
+ },
+ {
+  "id": "cbs-texts",
+  "kind": "citation",
+  "short": "CBS: texts",
+  "publisher": "CBS News",
+  "date": "Oct 2, 2026",
+  "title": "Jane Doe's account, from text messages and interview transcripts",
+  "url": "https://www.cbsnews.com/news/jane-doe-cornell-university-rape-allegations-text-messages-transcripts/"
+ },
+ {
+  "id": "cbs-details",
+  "kind": "citation",
+  "short": "CBS: details",
+  "publisher": "CBS News",
+  "date": "Oct 2, 2026",
+  "title": "What we know about the Chi Phi case",
+  "url": "https://www.cbsnews.com/news/cornell-university-rape-allegations-chi-phi-fraternity-details/"
+ },
+ {
+  "id": "cbs-snap",
+  "kind": "citation",
+  "short": "CBS NY: Snapchat",
+  "publisher": "CBS New York",
+  "date": "Sept 29, 2026",
+  "title": "Video of the Chi Phi Snapchat conversation",
+  "url": "https://www.cbsnews.com/newyork/news/cornell-university-rape-allegation-chi-phi-snapchat-conversation/"
+ },
+ {
+  "id": "abc",
+  "kind": "citation",
+  "short": "ABC timeline",
+  "publisher": "ABC News",
+  "date": "Oct 1, 2026",
+  "title": "Timeline of the alleged fraternity house rape investigation",
+  "url": "https://abcnews.com/US/timeline-alleged-cornell-university-fraternity-house-rape-investigation/story?id=136884431"
+ },
+ {
+  "id": "nbc",
+  "kind": "citation",
+  "short": "NBC: Kretzschmar",
+  "publisher": "NBC News",
+  "date": "Oct 1, 2026",
+  "title": "Investigative records on how an accused student responded",
+  "url": "https://www.nbcnews.com/news/us-news/investigative-records-give-insight-accused-cornell-student-responded-a-rcna600987"
+ },
+ {
+  "id": "sun-suit",
+  "kind": "citation",
+  "short": "Daily Sun",
+  "publisher": "The Cornell Daily Sun",
+  "date": "Sept 2026",
+  "title": "Coverage of the lawsuit",
+  "url": "https://www.cornellsun.com/article/2026/09/tccsuykuvb4z"
+ },
+ {
+  "id": "sun-faq",
+  "kind": "citation",
+  "short": "Sun: FAQ vs. DA",
+  "publisher": "The Cornell Daily Sun",
+  "date": "Sept 2026",
+  "title": "Cornell's FAQ contradicts the D.A.",
+  "url": "https://www.cornellsun.com/article/2026/09/cornell-releases-faq-on-alleged-chi-phi-gang-rape-contradicts-d-a"
+ },
+ {
+  "id": "sun-ag",
+  "kind": "citation",
+  "short": "Sun: special prosecutor",
+  "publisher": "The Cornell Daily Sun",
+  "date": "Oct 2026",
+  "title": "Attorney General appointed special prosecutor",
+  "url": "https://www.cornellsun.com/article/2026/10/gov-kathy-hochul-appoints-new-york-attorney-general-to-serve-as-special-prosecutor-in-investigation-of-alleged-chi-phi-gang-rape"
+ },
+ {
+  "id": "sun-essays",
+  "kind": "citation",
+  "short": "Sun: sanctions",
+  "publisher": "The Cornell Daily Sun",
+  "date": "Sept 2026",
+  "title": "Cornell denies defendants only wrote essays",
+  "url": "https://www.cornellsun.com/article/2026/09/cornell-denies-that-defendants-in-alleged-chi-phi-gang-rape-only-wrote-essays-confirms-expulsions"
+ },
+ {
+  "id": "time",
+  "kind": "citation",
+  "short": "TIME",
+  "publisher": "TIME",
+  "date": "Sept 30, 2026",
+  "title": "The case and the question of intoxicated consent",
+  "url": "https://time.com/article/2026/09/30/cornell-fraternity-rape-case-title-ix-new-york-intoxicated-consent/"
+ },
+ {
+  "id": "newsweek",
+  "kind": "citation",
+  "short": "Newsweek",
+  "publisher": "Newsweek",
+  "date": "Sept 2026",
+  "title": "Investigation reopened as a defendant's lawyer responds",
+  "url": "https://www.newsweek.com/cornell-gang-rape-investigation-reopened-as-defendants-lawyer-hits-back-12496254"
+ },
+ {
+  "id": "npr",
+  "kind": "citation",
+  "short": "NPR",
+  "publisher": "NPR (via Connecticut Public)",
+  "date": "Sept 28, 2026",
+  "title": "Prosecutors reopen the case: what we know",
+  "url": "https://www.ctpublic.org/2026-09-28/prosecutors-are-reopening-a-cornell-fraternity-rape-case-heres-what-we-know"
+ },
+ {
+  "id": "kcm",
+  "kind": "citation",
+  "short": "Katie Couric Media",
+  "publisher": "Katie Couric Media",
+  "date": "Sept 2026",
+  "title": "What we know about the lawsuit",
+  "url": "https://katiecouric.com/news/national-news/cornell-sexual-assault-lawsuit-what-we-know/"
+ },
+ {
+  "id": "fl1",
+  "kind": "citation",
+  "short": "FingerLakes1",
+  "publisher": "FingerLakes1",
+  "date": "Sept 21, 2026",
+  "title": "Lawsuit accuses Cornell, Greek organizations and students",
+  "url": "https://www.fingerlakes1.com/2026/09/21/lawsuit-accuses-cornell-greek-organizations-and-students-in-alleged-2024-sexual-assault/"
+ },
+ {
+  "id": "tmz-ibt",
+  "kind": "citation",
+  "short": "IBTimes (TMZ)",
+  "publisher": "IBTimes UK, citing TMZ",
+  "date": "Sept 30, 2026",
+  "title": "Prosecutors reopen the investigation",
+  "url": "https://www.ibtimes.co.uk/prosecutors-reopen-cornell-sexual-assault-investigation-1822961"
+ }
 ]
