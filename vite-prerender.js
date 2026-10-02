@@ -12,16 +12,11 @@ const SVELTE_SERVER = 'svelte/server'
  * @returns {import('vite').Plugin}
  */
 export function prerenderApp() {
-  /** @type {import('vite').ViteDevServer | undefined} */
-  let devServer
-
   return {
     name: 'prerender-app',
-    configureServer(server) {
-      devServer = server
-    },
-    async transformIndexHtml(html) {
-      // The build has no dev server to load Svelte's SSR output through, so it borrows a throwaway one
+    async transformIndexHtml(html, { server: devServer }) {
+      // Dev passes the live server (current even after Vite restarts itself). The build has none to load Svelte's
+      // SSR output through, so it borrows a throwaway one.
       const server = devServer || await createServer({
         configFile: false,
         appType: 'custom',

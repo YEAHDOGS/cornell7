@@ -31,6 +31,12 @@
  * @property {string[]} sources
  */
 
+const ISO_DATE_LENGTH = 10;
+const PART_SEPARATOR = ", ";
+/* A day-of-month in a date label ("Oct 18, 2024", "Nov 14–15, 2024"); "Late Oct 2024" / "Nov 2024" have none */
+const DAY_OF_MONTH_PATTERN = /\b\d{1,2}\b/;
+const APPROX_MARK = "≈ ";
+
 /* Static class strings so Tailwind can see them (tokens snap-1..8 in app.css). Snapchat gives each group member
    a name + rail color; we assign them in order of first appearance so a thread never repeats a color early. */
 const SNAP_SENDER_CLASSES = [
@@ -72,6 +78,58 @@ export function avatarInitials(name) {
   const first = words[0] ? words[0][0] : "";
   const last = words.length > 1 ? words[words.length - 1][0] : "";
   return (first + last).toUpperCase();
+}
+
+/**
+ * @typedef {Object} CounterLabels - data/strings.json timeline.counter
+ * @property {string} dayOf
+ * @property {string} after
+ * @property {string} before
+ * @property {string} year
+ * @property {string} years
+ * @property {string} month
+ * @property {string} months
+ * @property {string} day
+ * @property {string} days
+ */
+
+/**
+ * How long before or after the incident an entry falls, in calendar terms: "Day of", "3 days after",
+ * "1 year, 6 months, 30 days after". Zero parts are left out. Pure date arithmetic on the ISO strings (no time
+ * zones), so the server render and every visitor read the same thing. Ranges count from their first day; entries
+ * dated only to the month get a leading "≈".
+ * @param {string} anchor - ISO date the count starts from (data/case.json "incidentDate").
+ * @param {TimelineEvent} event - Its `date` sort key may carry a letter suffix ("2024-10-20b"), which is ignored.
+ * @param {CounterLabels} labels
+ * @returns {string}
+ */
+export function dayCounter(anchor, event, labels) {
+  const key = event.date.slice(0, ISO_DATE_LENGTH);
+  if (key === anchor) return labels.dayOf;
+  const after = key > anchor;
+  const [from, to] = (after ? [anchor, key] : [key, anchor]).map((iso) => iso.split("-").map(Number));
+
+  let years = to[0] - from[0];
+  let months = to[1] - from[1];
+  let days = to[2] - from[2];
+  if (days < 0) {
+    months -= 1;
+    days += new Date(Date.UTC(to[0], to[1] - 1, 0)).getUTCDate(); // length of the month before `to`'s month
+  }
+  if (months < 0) {
+    years -= 1;
+    months += 12;
+  }
+
+  const parts = [
+    [years, labels.year, labels.years],
+    [months, labels.month, labels.months],
+    [days, labels.day, labels.days],
+  ]
+    .filter(([count]) => count)
+    .map(([count, one, many]) => `${count} ${count === 1 ? one : many}`);
+  const approx = DAY_OF_MONTH_PATTERN.test(event.dateLabel) ? "" : APPROX_MARK;
+  return `${approx}${parts.join(PART_SEPARATOR)} ${after ? labels.after : labels.before}`;
 }
 
 /** Dot / chip color per category (tokens in app.css). */

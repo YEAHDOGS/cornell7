@@ -36,6 +36,18 @@
     "imsgPlaceholder": "iMessage",
     "imsgService": "iMessage",
     "editorNote": "Note",
+    "counter": {
+      "dayOf": "Day of",
+      "after": "after",
+      "before": "before",
+      "year": "year",
+      "years": "years",
+      "month": "month",
+      "months": "months",
+      "day": "day",
+      "days": "days"
+    },
+    "incidentReference": "the alleged assault",
     "categories": {
       "night": "The Night",
       "aftermath": "Aftermath",

@@ -7,14 +7,18 @@
   import MessageChain from "./MessageChain.svelte";
   import SourceLinks from "../ui/SourceLinks.svelte";
   import CitedText from "../ui/CitedText.svelte";
-  import { CATEGORY_CLASSES } from "./timeline.js";
+  import { CATEGORY_CLASSES, dayCounter } from "./timeline.js";
   import { linkFirstMentions } from "./dossierLinks.js";
+  import CASE from "../../data/case.json";
   import STRINGS from "../../data/strings.json";
 
   /** @type {Props} */
   let { event } = $props();
 
-  const CATEGORY_LABELS = /** @type {Record<string, string>} */ (STRINGS.timeline.categories);
+  const T = STRINGS.timeline;
+  const CATEGORY_LABELS = /** @type {Record<string, string>} */ (T.categories);
+  /* "20 days after" the incident; screen readers also hear what it's counted from */
+  const counter = $derived(dayCounter(CASE.incidentDate, event, T.counter));
   /* First mention of each person, organization or place in this entry opens its dossier in place */
   const linkedSummary = $derived(linkFirstMentions(event.summary));
 </script>
@@ -27,6 +31,9 @@
   <div class="hidden md:block pr-4 pt-0.5 text-right">
     <p class="font-mono text-xs xl:text-sm 2xl:text-xl text-ink">{event.dateLabel}</p>
     {#if event.time}<p class="font-mono text-[11px] xl:text-xs 2xl:text-lg text-muted">{event.time}</p>{/if}
+    <p class="mt-1 2xl:mt-2 font-mono text-[10px] xl:text-[11px] 2xl:text-base tracking-wide uppercase text-steel">
+      {counter}<span class="sr-only"> {T.incidentReference}</span>
+    </p>
   </div>
 
   <!-- Rail -->
@@ -39,6 +46,9 @@
     <header>
       <p class="md:hidden font-mono text-[11px] text-muted">
         {event.dateLabel}{#if event.time}&nbsp;·&nbsp;{event.time}{/if}
+      </p>
+      <p class="md:hidden font-mono text-[10px] tracking-wide uppercase text-steel">
+        {counter}<span class="sr-only"> {T.incidentReference}</span>
       </p>
       <p class="font-mono text-[9px] sm:text-[10px] 2xl:text-base tracking-[0.18em] uppercase text-muted">
         {CATEGORY_LABELS[event.category]}
