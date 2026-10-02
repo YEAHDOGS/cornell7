@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cornell7.dogs.red/sitemap.xml

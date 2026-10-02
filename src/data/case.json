@@ -1,0 +1,86 @@
+{
+  "court": "SUPREME COURT OF THE STATE OF NEW YORK · COUNTY OF NEW YORK",
+  "caption": "Jane Doe v. Cornell University, Inc., et al.",
+  "lead": [
+    "On the evening of October 19, 2024, a [20-year-old](cbs-details) Cornell undergraduate, identified in court papers as Jane Doe, drank vodka at her Delta Delta Delta sorority house, then went with sorority sisters to a chapter event at Moonies Bar & Nightclub and on to a second downtown bar. At about 11 p.m. she left alone and walked to the Chi Phi (Xi Chapter) fraternity house at 107 Edgemoor Lane to see her friend Matthew Ingalls. By then, the complaint says, she had consumed about ten drinks in three hours and was visibly intoxicated ([¶¶ 135–144](complaint@23)).",
+    "Her civil complaint alleges that inside the house she was pressured into snorting ketamine for the first time, given marijuana and a high-proof \"Jamaican liquor,\" and then sexually assaulted by seven fraternity members. At about 1:42 a.m. one of them allegedly announced in the chapter's \"Chi Phi Actives\" Snapchat group that there was \"free pussy\" upstairs ([¶ 162](complaint@26)), after which more members came into the room. The complaint says she was \"completely incapacitated\" by the final assault, which ended at about 5:45 a.m., when she lost consciousness ([¶¶ 152–174](complaint@25))."
+  ],
+  "defendantsIntro": "The complaint names eighteen defendants in its [caption](complaint@3): the university, the fraternity's national and chapter entities, her own sorority, the bar that served her while she was under 21, the seven students she says assaulted her, the Chi Phi chapter president, and unnamed faculty, alumni and chapter officers.",
+  "defendantGroups": [
+    {
+      "label": "University",
+      "names": [
+        "Cornell University, Inc."
+      ]
+    },
+    {
+      "label": "Chi Phi",
+      "names": [
+        "Chi Phi Chapter House Association",
+        "Chi Phi Fraternity, Inc.",
+        "Chi Phi Educational Trust",
+        "Orazio Petito (Xi Chapter president)"
+      ]
+    },
+    {
+      "label": "Delta Delta Delta",
+      "names": [
+        "Alpha Beta House Corporation of Delta Delta Delta",
+        "Delta Delta Delta Sorority"
+      ]
+    },
+    {
+      "label": "Bar",
+      "names": [
+        "Zareen Enterprise LLC d/b/a Moonies Bar & Nightclub"
+      ]
+    },
+    {
+      "label": "Students",
+      "names": [
+        "Matthew Ingalls",
+        "Johnathan Newell",
+        "Winston Lee",
+        "Gillio Lopes",
+        "Diego Sarabia",
+        "Scott Norris",
+        "Scott Kretzschmar"
+      ]
+    },
+    {
+      "label": "Unnamed",
+      "names": [
+        "John Doe (Faculty)",
+        "John Doe (Alumni)",
+        "John Does (Executive Board)"
+      ]
+    }
+  ],
+  "counsel": "Plaintiff's counsel ([signature page](complaint@101)): Thomas P. Giuffra, Rheingold Giuffra Ruffo Plotkin & Hellman LLP (New York), with W. Whitney Seals, Cochrun & Seals LLC (pro hac vice pending).",
+  "notices": [
+    "Every account of the night on this page comes from the plaintiff's civil complaint or from published reporting. These are allegations: none has been proven in court, and as of October 2, 2026, none of the seven men has been charged with a crime ([CBS](cbs-details)).",
+    "Several defendants deny the allegations through counsel. Cornell's Title IX process reached split outcomes, and Cornell has not said which outcome applied to which student ([Cornell FAQ](cu-faq))."
+  ],
+  "figures": [
+    {
+      "label": "Individual defendants",
+      "value": "7",
+      "detail": "Plus Cornell, Chi Phi and Tri Delta entities, Moonies, the chapter president, and John Does"
+    },
+    {
+      "label": "Complaint dated",
+      "value": "Sept 14, 2026",
+      "detail": "[Some outlets](abc) report filing on Sept 16"
+    },
+    {
+      "label": "Title IX outcomes",
+      "value": "2 · 2 · 2 · 1",
+      "detail": "Expelled · suspended · not responsible · graduated ([CBS](cbs-details))"
+    },
+    {
+      "label": "Criminal status",
+      "value": "No charges",
+      "detail": "AG Letitia James [named special prosecutor](sun-ag), Oct 1, 2026"
+    }
+  ]
+}

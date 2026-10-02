@@ -1,0 +1,17 @@
+{
+  "name": "Cornell 7 Case File: Jane Doe v. Cornell University",
+  "short_name": "Cornell 7",
+  "description": "Dossiers and a sourced timeline of the messages cited in Jane Doe v. Cornell University, Inc., et al.",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#07080b",
+  "background_color": "#07080b",
+  "display": "standalone"
+}

@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@import "./styles/legacy-fallback.css";
+
+/* Short screens (phones on their side, small phones, squat displays): compact layout variant, e.g. short:hidden */
+@custom-variant short (@media (max-height: 640px));
+/* Phones held sideways: wide enough for sm: but too short for stacked chrome. Used by the nav rail + grids. */
+@custom-variant landscape-phone (@media (orientation: landscape) and (max-height: 500px));
+
+/* Theme tokens. Each one becomes Tailwind utilities, e.g. --color-alert -> text-alert, bg-alert/20.
+   Usages: app shell (App.svelte), dossier cards (components/dossier), message bubbles (components/timeline). */
+@theme {
+  /* TV / ultra-wide tier. Tailwind's default 2xl (1536px) catches ordinary desktop monitors, which then got
+     TV-scale type; 2200px only matches ultra-wides and large-format displays. Every 2xl: class keys off this. */
+  --breakpoint-2xl: 137.5rem;
+
+  /* Surfaces */
+  --color-app: #07080b;
+  --color-card: #0f1117;
+  --color-card-hover: #161922;
+  --color-line: #232733;
+  --color-muted: #8b90a0;
+  --color-ink: #e8e9ee;
+
+  /* Accent: case-file red, used for the plaintiff/alert markers and active nav */
+  --color-alert: #e5484d;
+  /* Neutral accent for defendants and legal metadata */
+  --color-steel: #7c8aa5;
+
+  /* Snapchat chat replica (components/timeline/SnapchatThread.svelte), dark-mode values.
+     snap-1..8 are the per-sender name/rail colors Snapchat assigns in group chats. */
+  --color-snap: #fffc00;
+  --color-snap-ink: #111111;
+  --color-snap-bg: #000000;
+  --color-snap-bar: #121212;
+  --color-snap-field: #2a2a2a;
+  --color-snap-text: #ffffff;
+  --color-snap-dim: #8a8a8a;
+  --color-snap-1: #f23c57;
+  --color-snap-2: #0eadff;
+  --color-snap-3: #b05dd6;
+  --color-snap-4: #ff8a26;
+  --color-snap-5: #22c55e;
+  --color-snap-6: #ffc41a;
+  --color-snap-7: #ff5fa2;
+  --color-snap-8: #2fd3c5;
+
+  /* iMessage replica (components/timeline/IMessageThread.svelte), iOS dark-mode values */
+  --color-imsg-bg: #000000;
+  --color-imsg-bar: #1c1c1e;
+  --color-imsg-sent: #0b84fe;
+  --color-imsg-received: #262629;
+  --color-imsg-dim: #8e8e93;
+  --color-imsg-avatar-from: #a5abb8;
+  --color-imsg-avatar-to: #858994;
+
+  --font-snap: "Avenir Next", "Avenir", "Nunito Sans", ui-rounded, system-ui, sans-serif;
+  --font-imsg: -apple-system, "SF Pro Text", BlinkMacSystemFont, "Helvetica Neue", system-ui, sans-serif;
+
+  /* Timeline category colors (data/timeline.json "category") */
+  --color-cat-night: #e5484d;
+  --color-cat-aftermath: #f5a524;
+  --color-cat-investigation: #3e9bff;
+  --color-cat-campus: #a06cf0;
+  --color-cat-litigation: #30a46c;
+
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  /* dvh fills correctly on mobile even with the address bar visible; vh is the fallback */
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* ── Custom Global Scrollbars ── */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-app);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border: 2px solid var(--color-app);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-steel);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) var(--color-app);
+}
+
+/* Hide scrollbars but keep scrolling functionality */
+@utility scrollbar-none {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

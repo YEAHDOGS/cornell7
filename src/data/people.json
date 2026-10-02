@@ -1,0 +1,585 @@
+[
+  {
+    "id": "doe",
+    "name": "Jane Doe",
+    "role": "plaintiff",
+    "initials": "JD",
+    "tagline": "Former Cornell undergraduate; Delta Delta Delta member",
+    "facts": [
+      {
+        "label": "Age at the time",
+        "value": "20"
+      },
+      {
+        "label": "Enrolled",
+        "value": "August 2022 (arrived at 18)"
+      },
+      {
+        "label": "Sorority",
+        "value": "Delta Delta Delta, Alpha Beta Chapter"
+      },
+      {
+        "label": "Counsel",
+        "value": "Thomas P. Giuffra; W. Whitney Seals"
+      }
+    ],
+    "alleged": [
+      "Drank vodka at the Tri Delta house, then went to a sorority event at Moonies Bar & Nightclub (about 9 p.m.) and Lot 10 Bar and Lounge (about 10 p.m.). She was marked as under 21 at both, but the complaint says Moonies served her ([¶¶ 136–142](complaint@23)).",
+      "Walked alone to the Chi Phi house at about 11 p.m. to see Matthew Ingalls, having had about ten drinks in three hours ([¶¶ 143–144](complaint@24)).",
+      "Says she was pressured into snorting ketamine, which she had never used, and given marijuana and a high-proof \"Jamaican Liquor\" before a series of assaults by the seven defendants ([¶¶ 152–173](complaint@25)).",
+      "Says that after the 1:42 a.m. Snapchat post more members came into the room, she hid under the covers, and her phone was on the other side of the room ([¶¶ 162–166](complaint@26)).",
+      "Says she was \"completely incapacitated\" by the final assault and lost consciousness at about 5:45 a.m. ([¶¶ 172–174](complaint@28))."
+    ],
+    "response": [
+      "Went back to her sorority house later on October 20, found a large bruise, and took medication for a urinary tract infection ([¶¶ 175–177](complaint@29)).",
+      "Visited Cornell Health on October 22, where she was not referred for a rape kit ([CBS](cbs-texts)). A forensic exam on November 7 came too late to recover DNA ([CBS](cbs-texts)).",
+      "Reported to Cornell University Police on November 8, 2024, and gave investigators a [roughly 120-page interview](cupd-transcript) on November 14–15. She told them, \"I can say with 100% confidence I was raped\" ([CBS](cbs-texts)).",
+      "Filed a formal Title IX complaint, which Cornell began investigating on January 14, 2025 ([¶ 183](complaint@29)).",
+      "[Sued](complaint@1) on September 14, 2026, seeking compensatory and punitive damages and a jury trial ([prayer for relief](complaint@100))."
+    ],
+    "sources": [
+      "complaint",
+      "cbs-texts",
+      "nyt",
+      "abc"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Jane Doe",
+      "Doe"
+    ]
+  },
+  {
+    "id": "ingalls",
+    "name": "Matthew Ingalls",
+    "role": "defendant",
+    "initials": "MI",
+    "tagline": "Her friend in Chi Phi; the reason she went to the house",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "None found"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Greeted her, gave her a beer and danced with her, then proposed a threesome with another fraternity brother ([¶¶ 146–148](complaint@24)).",
+      "Led her upstairs and later took her to a room where Johnathan Newell was sitting ([¶¶ 150–151](complaint@25)).",
+      "With Newell, passed around a bag of alleged ketamine, pressured her to snort it, and gave her marijuana and \"Jamaican Liquor\" ([¶¶ 152–154](complaint@25)).",
+      "Forced oral sex on her while Newell assaulted her, then stopped and went to sleep on a bed in the room ([¶¶ 156–158](complaint@25)).",
+      "With Winston Lee, moved her to a smaller room believed to be the chapter president's office, had her snort more ketamine, and assaulted her there until about 5:45 a.m. ([¶¶ 170–174](complaint@28))."
+    ],
+    "response": [
+      "Messages under his display name in the [\"Chi Phi Actives\" screenshot](complaint@27) read \"I fucking love chi phi\" and \"Like you can walk in and whip it out\". The complaint itself does not discuss these replies.",
+      "Texted her \"U good?\" on October 25. Later in October he told her Chi Phi was her house and she was welcome there, before the chapter president called to disinvite her from a Halloween party ([NYT](nyt)).",
+      "No public comment from Ingalls or a lawyer for him was found."
+    ],
+    "sources": [
+      "complaint",
+      "nyt"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Matthew Ingalls",
+      "Ingalls"
+    ]
+  },
+  {
+    "id": "newell",
+    "name": "Johnathan Newell",
+    "role": "defendant",
+    "initials": "JN",
+    "tagline": "Accused of the 1:42 a.m. \"Chi Phi Actives: Free Pussy\" Snapchat text",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "None found"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Was in the upstairs room when Ingalls brought her in. With Ingalls, pressured her to snort alleged ketamine and gave her marijuana and liquor ([¶¶ 151–154](complaint@25)).",
+      "Forced vaginal intercourse on her and slapped her repeatedly, leaving bruises. Kept reaching for her after she pushed his hand away ([¶¶ 156–159](complaint@25)).",
+      "With Gillio Lopes, put her on a bed and assaulted her ([¶¶ 160–161](complaint@26)).",
+      "At about 1:42 a.m., posted in the \"Chi Phi Actives\" Snapchat group that there was \"free pussy\" upstairs. The complaint says this \"organized and encouraged\" other members to join ([¶¶ 162–163](complaint@26)).",
+      "Poured a line of ketamine on himself and made her snort it, then got back into the bed and groped her again ([¶¶ 167–168](complaint@28))."
+    ],
+    "response": [
+      "On October 21 he texted her an apology for \"how things went down\", saying he and Ingalls had been too impaired to shut the night down ([NYT](nyt)).",
+      "On November 3 she texted him that \"90% of what happened that night was not consensual\" ([NYT](nyt)).",
+      "No public comment from Newell or a lawyer for him was found."
+    ],
+    "sources": [
+      "complaint",
+      "nyt",
+      "fl1"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Johnathan Newell",
+      "Newell"
+    ]
+  },
+  {
+    "id": "lee",
+    "name": "Winston Lee",
+    "role": "defendant",
+    "initials": "WL",
+    "tagline": "Accused of the final assault, with Ingalls, in a second room",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "None found"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Named among all seven defendants who poured lines of ketamine over her body and snorted them while she lay on the bed ([¶ 169](complaint@28)).",
+      "With Ingalls, moved her to a smaller room believed to be the chapter president's office, made more lines of ketamine and told her to snort one ([¶¶ 170–171](complaint@28)).",
+      "With Ingalls, forced oral and vaginal sex on her at the same time while, the complaint says, she was \"completely incapacitated\". It ended at about 5:45 a.m., when she lost consciousness ([¶¶ 172–174](complaint@28))."
+    ],
+    "response": [
+      "No public comment from Lee or a lawyer for him was found.",
+      "Note: the [complaint](complaint@33) contains no conspiracy claim. The claims against the seven men are negligence, sexual assault, sexual battery, and intentional infliction of emotional distress."
+    ],
+    "sources": [
+      "complaint"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Winston Lee",
+      "Lee"
+    ]
+  },
+  {
+    "id": "lopes",
+    "name": "Gillio Lopes",
+    "role": "defendant",
+    "initials": "GL",
+    "tagline": "Denies the allegations through counsel",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Counsel",
+        "value": "Andrew T. Miltenberg"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Came into the room, pulled her away from Newell and kissed her while Newell groped her from behind ([¶ 160](complaint@26)).",
+      "With Newell, put her on a bed and assaulted her without her consent ([¶ 161](complaint@26)).",
+      "Named among the seven who poured ketamine over her body and snorted it ([¶ 169](complaint@28)), then left the room ([¶ 170](complaint@28))."
+    ],
+    "response": [
+      "His attorney, Andrew T. Miltenberg, says Lopes \"unequivocally denies the allegations against him\" ([CBS](cbs-details)).",
+      "Miltenberg has urged the public to weigh the full evidence before judging ([Newsweek](newsweek))."
+    ],
+    "sources": [
+      "complaint",
+      "cbs-details",
+      "cbs-snap",
+      "newsweek"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Gillio Lopes",
+      "Lopes"
+    ]
+  },
+  {
+    "id": "sarabia",
+    "name": "Diego Sarabia",
+    "role": "defendant",
+    "initials": "DS",
+    "tagline": "Accused of kissing her without consent after the group-chat post",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "None found"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "After more members came into the room following the 1:42 a.m. post, he grabbed her face and kissed her without consent, and she pushed him away ([¶¶ 164–165](complaint@28)).",
+      "Named among the seven who poured ketamine over her body and snorted it ([¶ 169](complaint@28)), then left the room ([¶ 170](complaint@28))."
+    ],
+    "response": [
+      "A message in the [group-chat screenshot](complaint@27) under Scott Kretzschmar's display name reads \"diego went 7 min ago and is not afk sooooo\". The complaint does not discuss it.",
+      "[TMZ reported](tmz-ibt) that he left a job at Wells Fargo after the case was reopened. Wells Fargo has not confirmed this (via [IBTimes](tmz-ibt)).",
+      "No public comment from Sarabia or a lawyer for him was found."
+    ],
+    "sources": [
+      "complaint",
+      "tmz-ibt"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Diego Sarabia",
+      "Sarabia"
+    ]
+  },
+  {
+    "id": "norris",
+    "name": "Scott Norris",
+    "role": "defendant",
+    "initials": "SN",
+    "tagline": "Admits sending a group-chat message; denies sex and drug use",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Not publicly disclosed"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "To [ABC News](abc) (Sept 2026)"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Named among the seven who poured ketamine over her body and snorted it while she lay on the bed ([¶ 169](complaint@28)), then left the room ([¶ 170](complaint@28)).",
+      "Named with the other six men in the sexual assault and sexual battery claims ([¶¶ 513, 520](complaint@88))."
+    ],
+    "response": [
+      "Told [ABC News](abc) he took part in no sexual activity or drug use. He acknowledged sending one of the messages in the complaint and said he briefly entered the room when no misconduct was happening ([ABC](abc), via [Katie Couric Media](kcm)).",
+      "The [screenshot](complaint@27) shows a message under his display name reading \"Free...\"."
+    ],
+    "sources": [
+      "complaint",
+      "kcm",
+      "time",
+      "abc"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Scott Norris",
+      "Norris"
+    ]
+  },
+  {
+    "id": "kretzschmar",
+    "name": "Scott Kretzschmar",
+    "role": "defendant",
+    "initials": "SK",
+    "tagline": "Found responsible for attempted sexual exploitation; denies assault",
+    "facts": [
+      {
+        "label": "Title IX outcome",
+        "value": "Responsible: attempted sexual exploitation ([NBC](nbc))"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Counsel",
+        "value": "Jeremy Saland"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence; sexual assault; sexual battery; intentional infliction of emotional distress"
+      }
+    ],
+    "alleged": [
+      "Named among the seven who poured ketamine over her body and snorted it ([¶ 169](complaint@28)), then left the room ([¶ 170](complaint@28)).",
+      "Two messages in the [group-chat screenshot](complaint@27) appear under his display name: \"diego went 7 min ago and is not afk sooooo\" and \"the alumni shit is not a bit. first person pov not a bit.\" [NBC](nbc) dates the second to about 2:30 a.m."
+    ],
+    "response": [
+      "According to investigative records, he said he went into the room briefly, looking for a vape, and that he never saw her naked, never touched her, and took no ketamine ([NBC](nbc)).",
+      "His attorney, Jeremy Saland, cites a hair-follicle test showing no ketamine and says Kretzschmar left within minutes and she was not undressed ([CBS NY](cbs-snap)).",
+      "Saland: \"Scott is not accused of rape and never has been\" ([NBC](nbc)).",
+      "Cornell's sanctions included a reflection paper, a no-contact order, and help building educational programming. A state-court challenge to the finding was denied. In a July 17 memo in that case, Cornell's attorneys said the anonymously provided Snapchat thread \"became a key exhibit\" ([NBC](nbc)).",
+      "[NBC](nbc) reports he was 22 and had already graduated."
+    ],
+    "sources": [
+      "complaint",
+      "nbc",
+      "cbs-snap",
+      "cbs-details",
+      "newsweek"
+    ],
+    "group": "individual",
+    "aliases": [
+      "Scott Kretzschmar",
+      "Kretzschmar"
+    ]
+  },
+  {
+    "id": "cornell",
+    "name": "Cornell University",
+    "role": "institution",
+    "group": "institutional",
+    "fileLabel": "UNIVERSITY",
+    "initials": "CU",
+    "tagline": "Accused of failing to protect a student on its own campus",
+    "aliases": [
+      "Cornell University",
+      "Cornell"
+    ],
+    "facts": [
+      {
+        "label": "Named as",
+        "value": "Cornell University, Inc."
+      },
+      {
+        "label": "Claims against it",
+        "value": "Negligence; negligent retention and supervision; breach of contract; NY Human Rights Law; negligent infliction of emotional distress"
+      },
+      {
+        "label": "Title IX outcomes",
+        "value": "2 expelled · 2 suspended · 2 not responsible · 1 graduated ([CBS](cbs-details))"
+      },
+      {
+        "label": "Independent review",
+        "value": "Agreed to outside counsel review, Sept 2026 ([ABC](abc))"
+      }
+    ],
+    "alleged": [
+      "Owned, managed or controlled the Chi Phi house, which sits on Cornell property ([¶ 18](complaint@6)).",
+      "Failed to supervise the seven students or warn her of the danger they posed, and is vicariously liable for its appointed faculty advisor to the chapter, sued as John Doe (Faculty) ([¶¶ 53–56](complaint@11); [¶ 211](complaint@34)).",
+      "Breached its contract with her by failing to follow its own safety policies after she paid tuition and complied with campus rules ([¶¶ 468–471](complaint@82)).",
+      "Violated the NY Human Rights Law by failing to discipline or remove the students afterward, \"sheltering them from speaking to law enforcement, and silencing victims\" ([¶ 505](complaint@87))."
+    ],
+    "response": [
+      "In November 2024 Interim President Michael I. Kotlikoff called the allegations \"serious and deeply disturbing\" ([Cornell statement](cu-2024)).",
+      "Cornell says essays were never the only consequence for the students, and it has not said which student received which Title IX outcome ([Cornell FAQ](cu-faq); [Daily Sun](sun-essays)).",
+      "Its September 2026 FAQ said the Snapchat screenshot had been given to the DA, which the DA disputes. Cornell later edited the FAQ ([Daily Sun](sun-faq))."
+    ],
+    "sources": [
+      "complaint",
+      "cu-2024",
+      "cu-faq",
+      "sun-faq",
+      "sun-essays",
+      "abc"
+    ]
+  },
+  {
+    "id": "chi-phi",
+    "name": "Chi Phi (Xi Chapter)",
+    "role": "institution",
+    "group": "institutional",
+    "fileLabel": "FRATERNITY",
+    "initials": "ΧΦ",
+    "tagline": "The chapter, its house association and the national fraternity",
+    "aliases": [
+      "Chi Phi (Xi Chapter)",
+      "Xi Chapter",
+      "Chi Phi house",
+      "Chi Phi",
+      "107 Edgemoor Lane"
+    ],
+    "facts": [
+      {
+        "label": "Named as",
+        "value": "Chi Phi Chapter House Association; Chi Phi Fraternity, Inc.; Chi Phi Educational Trust"
+      },
+      {
+        "label": "Chapter house",
+        "value": "107 Edgemoor Lane, on Cornell's campus ([¶ 22](complaint@6))"
+      },
+      {
+        "label": "Claims against it",
+        "value": "Negligence; negligent retention and supervision; negligent infliction of emotional distress"
+      },
+      {
+        "label": "Chapter status",
+        "value": "Placed on temporary suspension Nov 8, 2024 ([¶ 180](complaint@29))"
+      }
+    ],
+    "alleged": [
+      "The chapter house association owned and controlled the Xi Chapter house. The national fraternity, a Georgia corporation, and its educational trust jointly controlled the chapter and the house ([¶¶ 19–33](complaint@6)).",
+      "Members plied her with alcohol and drugs inside the house it controlled ([¶ 35](complaint@8)).",
+      "The national fraternity is vicariously liable for its appointed alumni advisor to the chapter, sued as John Doe (Alumni). The chapter's executive board is sued as John Does (Executive Board) ([¶¶ 60–74](complaint@12)).",
+      "[ABC News](abc) reports a ketamine overdose at the house the day before the party."
+    ],
+    "response": [
+      "No public statement from Chi Phi was found."
+    ],
+    "sources": [
+      "complaint",
+      "abc",
+      "cu-2024"
+    ]
+  },
+  {
+    "id": "tri-delta",
+    "name": "Delta Delta Delta",
+    "role": "institution",
+    "group": "institutional",
+    "fileLabel": "SORORITY",
+    "initials": "ΔΔΔ",
+    "tagline": "Her own sorority and its chapter house corporation",
+    "aliases": [
+      "Delta Delta Delta",
+      "Tri Delta house",
+      "Tri Delta"
+    ],
+    "facts": [
+      {
+        "label": "Named as",
+        "value": "Alpha Beta House Corporation of Delta Delta Delta; Delta Delta Delta Sorority"
+      },
+      {
+        "label": "Chapter house",
+        "value": "118 Triphammer Road, where she lived ([¶ 42](complaint@8))"
+      },
+      {
+        "label": "Claims against it",
+        "value": "Negligence; negligent retention and supervision"
+      }
+    ],
+    "alleged": [
+      "She was a member of the Alpha Beta Chapter and lived in its house. The national sorority is a Texas corporation ([¶¶ 36–50](complaint@8)).",
+      "The sorority's house mother saw that she was intoxicated and still took her to Moonies ([¶ 52](complaint@11); [¶ 137](complaint@24)).",
+      "The chapter had designated sober monitors at the Moonies event to watch for excessive intoxication ([¶ 140](complaint@24)).",
+      "Tri Delta had banned alcohol and drugs in its chapter houses ([¶ 130](complaint@22))."
+    ],
+    "response": [
+      "No public statement from Delta Delta Delta was found."
+    ],
+    "sources": [
+      "complaint"
+    ]
+  },
+  {
+    "id": "moonies",
+    "name": "Moonies Bar & Nightclub",
+    "role": "institution",
+    "group": "institutional",
+    "fileLabel": "BAR",
+    "initials": "MB",
+    "tagline": "Accused of serving her while she was under 21",
+    "aliases": [
+      "Moonies Bar & Nightclub",
+      "Moonies"
+    ],
+    "facts": [
+      {
+        "label": "Named as",
+        "value": "Zareen Enterprise LLC d/b/a Moonies Bar & Nightclub"
+      },
+      {
+        "label": "Location",
+        "value": "114 E State Street, Ithaca ([¶ 83](complaint@16))"
+      },
+      {
+        "label": "Claims against it",
+        "value": "Negligence; negligent retention and supervision; NY Dram Shop Act"
+      }
+    ],
+    "alleged": [
+      "Hosted the Tri Delta chapter event on October 19, 2024 ([¶ 135](complaint@23)).",
+      "Its bouncer marked both of her hands with an \"X\" to show she was under 21, but staff served her anyway ([¶¶ 138–139](complaint@24)).",
+      "Served her, a minor, \"to the point of visible intoxication\", which the complaint says led to the assault ([¶ 86](complaint@16))."
+    ],
+    "response": [
+      "No public statement from Moonies was found."
+    ],
+    "sources": [
+      "complaint"
+    ]
+  },
+  {
+    "id": "petito",
+    "name": "Orazio Petito",
+    "role": "defendant",
+    "group": "institutional",
+    "fileLabel": "CHAPTER PRESIDENT",
+    "initials": "OP",
+    "tagline": "Xi Chapter president; sued for failing to keep the house safe",
+    "aliases": [
+      "Orazio Petito",
+      "Petito"
+    ],
+    "facts": [
+      {
+        "label": "Role",
+        "value": "Elected president of the Xi Chapter executive board ([¶ 75](complaint@15))"
+      },
+      {
+        "label": "Criminal status",
+        "value": "Not charged"
+      },
+      {
+        "label": "Public statement",
+        "value": "None found"
+      },
+      {
+        "label": "Claims against him",
+        "value": "Negligence"
+      }
+    ],
+    "alleged": [
+      "A Cornell student and Chi Phi member, he was responsible for supervising the chapter house and keeping it and its members safe ([¶¶ 76–79](complaint@15)).",
+      "Breached that duty while she was plied with alcohol and drugs inside the house ([¶ 81](complaint@15)).",
+      "He is not among the seven men accused of assaulting her."
+    ],
+    "response": [
+      "No public comment from Petito or a lawyer for him was found."
+    ],
+    "sources": [
+      "complaint"
+    ]
+  }
+]

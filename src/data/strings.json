@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "label": "Sections",
+    "caseFile": "CASE FILE",
+    "overview": "Case",
+    "dossiers": "Dossiers",
+    "timeline": "Timeline",
+    "sources": "Citations"
+  },
+  "dossier": {
+    "title": "Dossiers",
+    "subtitle": "Everyone and everything named in the complaint. Select a file to open it.",
+    "individualTitle": "The plaintiff and the seven accused",
+    "institutionalTitle": "Institutional and supervisory defendants",
+    "institutionPresumption": "Allegations in a civil complaint are claims, not findings. None of these allegations has been proven in court.",
+    "alleged": "ALLEGED IN THE COMPLAINT",
+    "plaintiffAccount": "HER ACCOUNT, AS PLEADED",
+    "response": "RESPONSE & REPORTED OUTCOMES",
+    "plaintiffAftermath": "AFTERMATH",
+    "presumption": "Allegations in a civil complaint are claims, not findings. This person has not been charged with or convicted of any crime in connection with these events.",
+    "sources": "SOURCES"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "eventsLabel": "events",
+    "messagesLabel": "messages quoted",
+    "filterLabel": "Filter timeline",
+    "all": "All",
+    "withMessages": "Messages",
+    "snapchat": "Snapchat",
+    "sms": "Text",
+    "provenance": "Source:",
+    "viewOriginal": "View original",
+    "pageLabel": "p.",
+    "snapPlaceholder": "Send a chat",
+    "imsgPlaceholder": "iMessage",
+    "imsgService": "iMessage",
+    "editorNote": "Note",
+    "categories": {
+      "night": "The Night",
+      "aftermath": "Aftermath",
+      "investigation": "Police & Prosecutors",
+      "campus": "Cornell & Title IX",
+      "litigation": "Litigation"
+    }
+  },
+  "sources": {
+    "primaryTitle": "Read the main court documents here",
+    "primarySubtitle": "The civil complaint, police records and official statements. Paragraph citations on this page jump to the matching page of the complaint. Links open in a new tab.",
+    "filingLabel": "Court record",
+    "officialLabel": "Official statement",
+    "citationsTitle": "Citations",
+    "citationsSubtitle": "News reporting cited in the dossiers and timeline. Message text is reproduced as quoted in the civil complaint or in published reporting. Links open in a new tab.",
+    "publicCopy": "Public copy",
+    "mirror": "Mirror"
+  },
+  "footer": {
+    "disclaimer": "Compiled from public court filings and published reporting. Allegations remain unproven."
+  }
+}
