@@ -30,6 +30,17 @@
         px-4 py-6 sm:px-6 landscape-phone:px-4 landscape-phone:py-4 md:px-8 md:py-10 xl:px-12 2xl:px-20 2xl:py-16"
     >
       <CaseOverview />
+      <figure class="flex flex-col gap-2 2xl:gap-4">
+        <img
+          src="/images/da-sworn-account.jpg"
+          alt="Pages 4 and 5 of the Tompkins County District Attorney's September 28, 2026 public statement, quoting Jane Doe's sworn account of the night"
+          class="mx-auto w-full max-w-2xl 2xl:max-w-4xl rounded-lg border border-line"
+          loading="lazy"
+        />
+        <figcaption class="mx-auto max-w-2xl 2xl:max-w-4xl text-[11px] sm:text-xs 2xl:text-lg text-muted leading-relaxed">
+          DA public statement (Sept 28, 2026), pp. 4–5: Jane Doe's sworn account of the night, as quoted by the DA's office. Full document in primary sources.
+        </figcaption>
+      </figure>
       <DossierSection />
       <TimelineSection />
       <SourcesSection />
