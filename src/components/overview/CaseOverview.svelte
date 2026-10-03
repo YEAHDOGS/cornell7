@@ -57,4 +57,14 @@
       </div>
     {/each}
   </dl>
+
+  {#if CASE.closing}
+    <div class="border-t border-line pt-5 2xl:pt-10">
+      {#each CASE.closing as paragraph, i (i)}
+        <p class="text-sm sm:text-base 2xl:text-3xl text-ink/90 leading-relaxed {i === 0 ? '' : 'mt-3 2xl:mt-6'}">
+          <CitedText text={paragraph} />
+        </p>
+      {/each}
+    </div>
+  {/if}
 </section>
