@@ -38,7 +38,12 @@
           loading="lazy"
         />
         <figcaption class="mx-auto max-w-2xl 2xl:max-w-4xl text-[11px] sm:text-xs 2xl:text-lg text-muted leading-relaxed">
-          DA public statement (Sept 28, 2026), pp. 4–5: Jane Doe's sworn account of the night, as quoted by the DA's office. Full document in primary sources.
+          <a
+            href="/docs/da-public-statement-2026-09-28.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="underline decoration-steel/50 underline-offset-2 hover:text-ink hover:decoration-current"
+          >DA public statement (Sept 28, 2026), pp. 4–5: Jane Doe's sworn account of the night, as quoted by the DA's office. Full document in primary sources.<span class="sr-only"> (opens in a new tab)</span></a>
         </figcaption>
       </figure>
       <DossierSection />
