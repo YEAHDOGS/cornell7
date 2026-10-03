@@ -45,6 +45,9 @@
             <ExternalLink class="shrink-0 mt-0.5 w-3.5 h-3.5 2xl:w-5 2xl:h-5 opacity-60" aria-hidden="true" />
             <span class="sr-only">{NEW_TAB}</span>
           </a>
+          {#if source.note}
+            <p class="text-[11px] sm:text-xs 2xl:text-lg text-muted leading-snug">{source.note}</p>
+          {/if}
           <span class="mt-auto flex flex-wrap gap-x-3 gap-y-1 font-mono text-[10px] 2xl:text-base text-muted">
             {source.publisher}
             {#if source.doc && source.url}
