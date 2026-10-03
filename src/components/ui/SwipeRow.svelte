@@ -21,7 +21,7 @@
   const EDGE_SLACK_PX = 2;
   const T = STRINGS.swipeRow;
   const ARROW_CLASS =
-    "sm:hidden absolute top-1/2 -translate-y-1/2 z-10 grid place-items-center w-8 h-8 rounded-full border border-line bg-card/90 text-ink shadow-lg backdrop-blur focus-visible:outline-2 focus-visible:outline-alert";
+    "sm:hidden absolute top-1/2 -translate-y-1/2 z-10 grid place-items-center w-7 h-7 rounded-full border border-line bg-card/90 text-ink shadow-lg backdrop-blur focus-visible:outline-2 focus-visible:outline-alert";
 
   /** @type {Props} */
   let { label, children } = $props();
@@ -60,13 +60,13 @@
   </div>
 
   {#if canBack}
-    <button type="button" onclick={() => page(-1)} aria-label="{T.back} {label}" class="{ARROW_CLASS} -left-2">
-      <ChevronLeft class="w-5 h-5" aria-hidden="true" />
+    <button type="button" onclick={() => page(-1)} aria-label="{T.back} {label}" class="{ARROW_CLASS} -left-4">
+      <ChevronLeft class="w-4 h-4" aria-hidden="true" />
     </button>
   {/if}
   {#if canForward}
-    <button type="button" onclick={() => page(1)} aria-label="{T.forward} {label}" class="{ARROW_CLASS} -right-2">
-      <ChevronRight class="w-5 h-5" aria-hidden="true" />
+    <button type="button" onclick={() => page(1)} aria-label="{T.forward} {label}" class="{ARROW_CLASS} -right-4">
+      <ChevronRight class="w-4 h-4" aria-hidden="true" />
     </button>
   {/if}
 </div>
