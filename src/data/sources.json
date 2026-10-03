@@ -11,26 +11,6 @@
   "mirror": "https://www.courthousenews.com/wp-content/uploads/2026/09/doe-cornell-new-york-supreme.pdf"
  },
  {
-  "id": "cupd-transcript",
-  "kind": "filing",
-  "short": "CUPD transcript",
-  "doc": "cupd-interview-transcript-2024-11.pdf",
-  "publisher": "Cornell University Police Department",
-  "date": "Nov 14–15, 2024",
-  "title": "Recorded interview of Jane Doe (approx. 120 pp.)",
-  "url": ""
- },
- {
-  "id": "sworn-statement",
-  "kind": "filing",
-  "short": "Sworn statement",
-  "doc": "cupd-sworn-statement-2024-11.pdf",
-  "publisher": "Cornell University Police Department",
-  "date": "Nov 2024",
-  "title": "Six-page sworn statement of Jane Doe",
-  "url": ""
- },
- {
   "id": "da",
   "kind": "official",
   "short": "DA statement",
