@@ -1,750 +1,754 @@
 [
- {
-  "id": "overdose",
-  "date": "2024-10-18",
-  "dateLabel": "Oct 18, 2024",
-  "category": "night",
-  "title": "The day before: a ketamine overdose at the Chi Phi house",
-  "summary": [
-   "[ABC News](abc) reports that someone overdosed on ketamine at the Chi Phi house the day before the party."
-  ],
-  "chains": [],
-  "sources": [
-   "abc"
-  ]
- },
- {
-  "id": "bars",
-  "date": "2024-10-19a",
-  "dateLabel": "Oct 19, 2024",
-  "time": "8:30 PM",
-  "category": "night",
-  "title": "Sorority pregame, then Moonies and Lot 10",
-  "summary": [
-   "After drinking Tito's vodka at the Tri Delta house, Doe took an Uber at about 8:30 p.m. to the chapter's event at Moonies Bar & Nightclub, accompanied by the sorority's house mother. Bouncers marked both her hands with an \"X\" because she was under 21, but the complaint says she was still served ([¶¶ 136–139](complaint@23)).",
-   "At about 10 p.m. she and other sisters walked to Lot 10 Bar and Lounge, where she was given an under-21 wristband ([¶¶ 141–142](complaint@24)). Moonies is a defendant under New York's Dram Shop Act."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint",
-   "cbs-texts"
-  ]
- },
- {
-  "id": "arrival",
-  "date": "2024-10-19b",
-  "dateLabel": "Oct 19, 2024",
-  "time": "≈ 11:00 PM",
-  "category": "night",
-  "title": "Arrives alone at the Chi Phi house",
-  "summary": [
-   "She \"stumbled alone\" to 107 Edgemoor Lane to see Matthew Ingalls, visibly intoxicated after about ten drinks in three hours ([¶¶ 143–144](complaint@24)). Members at the door let her in. Ingalls gave her a beer, danced with her, and proposed a threesome with another brother ([¶¶ 145–148](complaint@24)).",
-   "The complaint says Ingalls led her upstairs, left her with another member, then brought her to a room where Johnathan Newell was sitting on a couch ([¶¶ 150–151](complaint@25))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint"
-  ]
- },
- {
-  "id": "upstairs",
-  "date": "2024-10-20a",
-  "dateLabel": "Oct 20, 2024",
-  "time": "Before 1:42 AM",
-  "category": "night",
-  "title": "Ketamine, marijuana and liquor; the first alleged assaults",
-  "summary": [
-   "According to the complaint, Ingalls and Newell passed around a bag of a white powder said to be ketamine and pressured her to snort it, though she had never used it. They also gave her marijuana and a high-proof \"Jamaican Liquor\" ([¶¶ 152–154](complaint@25)).",
-   "The complaint alleges that Ingalls forced oral sex on her while Newell forced intercourse and slapped her hard enough to bruise. Ingalls then went to sleep on a bed. Gillio Lopes came in, and he and Newell put her on a bed and assaulted her ([¶¶ 155–161](complaint@25))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint"
-  ]
- },
- {
-  "id": "chi-phi-actives",
-  "date": "2024-10-20b",
-  "dateLabel": "Oct 20, 2024",
-  "time": "1:42 AM",
-  "category": "night",
-  "title": "The \"Chi Phi Actives\" Snapchat group",
-  "summary": [
-   "The complaint alleges that at about 1:42 a.m. Newell posted in the chapter's Snapchat group that there was \"free pussy\" upstairs, which \"organized and encouraged other XI CHAPTER members to join\" ([¶¶ 162–163](complaint@26)). [Page 27 of the complaint](complaint@27) reproduces a photo of a phone showing the thread, with the status-bar clock reading 2:37.",
-   "Below is everything legible in that photo, top to bottom. Sender names are the Snapchat display names shown on screen. Apart from the 1:42 a.m. post, the complaint does not say who wrote which reply.",
-   "Campus investigators also found that a photo of Doe was shared among active members in a Snapchat group that night. The documents do not describe the photo. The thread reached investigators anonymously, and Cornell's attorneys, in a July 17 memo filed in Kretzschmar's court challenge, said it \"became a key exhibit\" in the conduct case ([NBC](nbc))."
-  ],
-  "chains": [
-   {
-    "platform": "snapchat",
-    "thread": "Chi Phi Actives",
-    "provenance": "Photo reproduced on [p. 27 of the complaint](complaint@27), captioned \"'Chi Phi Actives' Snapchat Group (October 20, 2024, at 1:42 AM)\". Transcribed from the image",
-    "note": "Spelling and capitalization as shown on screen. Recreated in Snapchat's dark theme; the original photo shows light mode",
-    "original": {
-     "source": "complaint",
-     "page": 27
-    },
-    "messages": [
-     {
-      "sender": "Cut off",
-      "text": "Hmmmmmm",
-      "note": "Top line, partly cut off; sender not visible"
-     },
-     {
-      "sender": "RYAN",
-      "text": "This is crazy work",
-      "quote": {
-       "sender": "[J]ONATHAN N··L",
-       "time": "1:42 AM",
-       "text": "Free pussy in alum pu"
+  {
+    "id": "overdose",
+    "date": "2024-10-18",
+    "dateLabel": "Oct 18, 2024",
+    "category": "night",
+    "title": "The day before: a ketamine overdose at the Chi Phi house",
+    "summary": [
+      "[ABC News](abc) reports that someone overdosed on ketamine at the Chi Phi house the day before the party."
+    ],
+    "chains": [],
+    "sources": [
+      "abc"
+    ]
+  },
+  {
+    "id": "bars",
+    "date": "2024-10-19a",
+    "dateLabel": "Oct 19, 2024",
+    "time": "8:30 PM",
+    "category": "night",
+    "title": "Sorority pregame, then Moonies and Lot 10",
+    "summary": [
+      "After drinking Tito's vodka at the Tri Delta house, Doe took an Uber at about 8:30 p.m. to the chapter's event at Moonies Bar & Nightclub, accompanied by the sorority's house mother. Bouncers marked both her hands with an \"X\" because she was under 21, but the complaint says she was still served ([¶¶ 136–139](complaint@23)).",
+      "At about 10 p.m. she and other sisters walked to Lot 10 Bar and Lounge, where she was given an under-21 wristband ([¶¶ 141–142](complaint@24)). Moonies is a defendant under New York's Dram Shop Act."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint",
+      "cbs-texts"
+    ]
+  },
+  {
+    "id": "arrival",
+    "date": "2024-10-19b",
+    "dateLabel": "Oct 19, 2024",
+    "time": "≈ 11:00 PM",
+    "category": "night",
+    "title": "Arrives alone at the Chi Phi house",
+    "summary": [
+      "She \"stumbled alone\" to 107 Edgemoor Lane to see Matthew Ingalls, visibly intoxicated after about ten drinks in three hours ([¶¶ 143–144](complaint@24)). Members at the door let her in. Ingalls gave her a beer, danced with her, and proposed a threesome with another brother ([¶¶ 145–148](complaint@24)).",
+      "The complaint says Ingalls led her upstairs, left her with another member, then brought her to a room where Johnathan Newell was sitting on a couch ([¶¶ 150–151](complaint@25))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint"
+    ]
+  },
+  {
+    "id": "upstairs",
+    "date": "2024-10-20a",
+    "dateLabel": "Oct 20, 2024",
+    "time": "Before 1:42 AM",
+    "category": "night",
+    "title": "Ketamine, marijuana and liquor; the first alleged assaults",
+    "summary": [
+      "According to the complaint, Ingalls and Newell passed around a bag of a white powder said to be ketamine and pressured her to snort it, though she had never used it. They also gave her marijuana and a high-proof \"Jamaican Liquor\" ([¶¶ 152–154](complaint@25)).",
+      "The complaint alleges that Ingalls forced oral sex on her while Newell forced intercourse and slapped her hard enough to bruise. Ingalls then went to sleep on a bed. Gillio Lopes came in, and he and Newell put her on a bed and assaulted her ([¶¶ 155–161](complaint@25))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint"
+    ]
+  },
+  {
+    "id": "chi-phi-actives",
+    "date": "2024-10-20b",
+    "dateLabel": "Oct 20, 2024",
+    "time": "1:42 AM",
+    "category": "night",
+    "title": "The \"Chi Phi Actives\" Snapchat group",
+    "summary": [
+      "The complaint alleges that at about 1:42 a.m. Newell posted in the chapter's Snapchat group that there was \"free pussy\" upstairs, which \"organized and encouraged other XI CHAPTER members to join\" ([¶¶ 162–163](complaint@26)). [Page 27 of the complaint](complaint@27) reproduces a photo of a phone showing the thread, with the status-bar clock reading 2:37.",
+      "Below is everything legible in that photo, top to bottom. Sender names are the Snapchat display names shown on screen. Apart from the 1:42 a.m. post, the complaint does not say who wrote which reply.",
+      "Campus investigators also found that a photo of Doe was shared among active members in a Snapchat group that night. The documents do not describe the photo. The thread reached investigators anonymously, and Cornell's attorneys, in a July 17 memo filed in Kretzschmar's court challenge, said it \"became a key exhibit\" in the conduct case ([NBC](nbc))."
+    ],
+    "chains": [
+      {
+        "platform": "snapchat",
+        "thread": "Chi Phi Actives",
+        "provenance": "Photo reproduced on [p. 27 of the complaint](complaint@27), captioned \"'Chi Phi Actives' Snapchat Group (October 20, 2024, at 1:42 AM)\". Transcribed from the image",
+        "note": "Spelling and capitalization as shown on screen. Recreated in Snapchat's dark theme; the original photo shows light mode",
+        "original": {
+          "source": "complaint",
+          "page": 27
+        },
+        "messages": [
+          {
+            "sender": "Cut off",
+            "text": "Hmmmmmm",
+            "note": "Top line, partly cut off; sender not visible"
+          },
+          {
+            "sender": "RYAN",
+            "text": "This is crazy work",
+            "quote": {
+              "sender": "[J]ONATHAN N··L",
+              "time": "1:42 AM",
+              "text": "Free pussy in alum pu"
+            },
+            "note": "RYAN, who is not a defendant, is replying to the 1:42 a.m. post, which appears only as this cut-off preview. The display name is faint. Complaint [¶ 162](complaint@26) attributes the post to Johnathan Newell."
+          },
+          {
+            "sender": "SCOTT NORRIS",
+            "text": "Free..."
+          },
+          {
+            "sender": "SCOTT KRETZSCHMAR",
+            "text": "diego went 7 min ago and is not afk sooooo"
+          },
+          {
+            "sender": "MATTHEW INGALLS",
+            "text": "I fucking love chi phi",
+            "note": "Two Bitmoji reactions beneath"
+          },
+          {
+            "sender": "WINSTON",
+            "text": "CHI PHIII"
+          },
+          {
+            "sender": "SCOTT KRETZSCHMAR",
+            "time": "≈ 2:30 AM",
+            "text": "the alumni shit is not a bit. first person pov not a bit.",
+            "note": "Time per [NBC News](nbc), citing investigative records"
+          },
+          {
+            "sender": "MATTHEW INGALLS",
+            "text": "Like you can walk in and whip it out",
+            "note": "Right edge covered by a thumb; may continue"
+          },
+          {
+            "sender": "[J]ONATHAN N··L",
+            "text": "Type",
+            "note": "Cut off; may be a typing indicator"
+          }
+        ]
       },
-      "note": "RYAN, who is not a defendant, is replying to the 1:42 a.m. post, which appears only as this cut-off preview. The display name is faint. Complaint [¶ 162](complaint@26) attributes the post to Johnathan Newell."
-     },
-     {
-      "sender": "SCOTT NORRIS",
-      "text": "Free..."
-     },
-     {
-      "sender": "SCOTT KRETZSCHMAR",
-      "text": "diego went 7 min ago and is not afk sooooo"
-     },
-     {
-      "sender": "MATTHEW INGALLS",
-      "text": "I fucking love chi phi",
-      "note": "Two Bitmoji reactions beneath"
-     },
-     {
-      "sender": "WINSTON",
-      "text": "CHI PHIII"
-     },
-     {
-      "sender": "SCOTT KRETZSCHMAR",
-      "time": "≈ 2:30 AM",
-      "text": "the alumni shit is not a bit. first person pov not a bit.",
-      "note": "Time per [NBC News](nbc), citing investigative records"
-     },
-     {
-      "sender": "MATTHEW INGALLS",
-      "text": "Like you can walk in and whip it out",
-      "note": "Right edge covered by a thumb; may continue"
-     },
-     {
-      "sender": "[J]ONATHAN N··L",
-      "text": "Type",
-      "note": "Cut off; may be a typing indicator"
-     }
+      {
+        "platform": "snapchat",
+        "thread": "Chi Phi Actives (separate exchange)",
+        "provenance": "[CBS New York](cbs-snap), from video of the group conversation. Not in the complaint. The senders have not been publicly identified",
+        "messages": [
+          {
+            "sender": "Unidentified member",
+            "text": "Shop still open?"
+          },
+          {
+            "sender": "Unidentified member",
+            "text": "Yea."
+          }
+        ]
+      },
+      {
+        "platform": "snapchat",
+        "thread": "Chi Phi active members (photo thread)",
+        "provenance": "[NBC News](nbc), citing Cornell investigative records. Not in the complaint",
+        "messages": [
+          {
+            "sender": "Unknown member",
+            "text": "[Photo of Jane Doe]",
+            "note": "Image not published; its nature is not described in the records"
+          },
+          {
+            "sender": "Unknown user",
+            "text": "Are you guys at least naked?"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "complaint",
+      "nbc",
+      "cbs-snap",
+      "kcm"
     ]
-   },
-   {
-    "platform": "snapchat",
-    "thread": "Chi Phi Actives (separate exchange)",
-    "provenance": "[CBS New York](cbs-snap), from video of the group conversation. Not in the complaint. The senders have not been publicly identified",
-    "messages": [
-     {
-      "sender": "Unidentified member",
-      "text": "Shop still open?"
-     },
-     {
-      "sender": "Unidentified member",
-      "text": "Yea."
-     }
+  },
+  {
+    "id": "room-fills",
+    "date": "2024-10-20c",
+    "dateLabel": "Oct 20, 2024",
+    "time": "After 1:42 AM",
+    "category": "night",
+    "title": "Members enter the room; ketamine poured over her body",
+    "summary": [
+      "The complaint says several more members then came in. She hid under the covers, her phone out of reach across the room. Diego Sarabia grabbed her face and kissed her until she pushed him away ([¶¶ 164–166](complaint@28)).",
+      "Newell allegedly made her snort a line of ketamine off his body. Then, as she lay on the bed, all seven defendants (Ingalls, Newell, Lee, Lopes, Sarabia, Norris and Kretzschmar) allegedly poured lines of ketamine over her and snorted them ([¶¶ 167–169](complaint@28))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint"
     ]
-   },
-   {
-    "platform": "snapchat",
-    "thread": "Chi Phi active members (photo thread)",
-    "provenance": "[NBC News](nbc), citing Cornell investigative records. Not in the complaint",
-    "messages": [
-     {
-      "sender": "Unknown member",
-      "text": "[Photo of Jane Doe]",
-      "note": "Image not published; its nature is not described in the records"
-     },
-     {
-      "sender": "Unknown user",
-      "text": "Are you guys at least naked?"
-     }
+  },
+  {
+    "id": "roommate",
+    "date": "2024-10-20d",
+    "dateLabel": "Oct 20, 2024",
+    "time": "3:05 AM",
+    "category": "night",
+    "title": "Her roommate checks in",
+    "summary": [
+      "[The New York Times](nyt) reports a text from her roommate at 3:05 a.m. Doe answered at 3:09 a.m. that she wasn't sure. The Times did not quote her reply."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Roommate → Jane Doe",
+        "contact": "Roommate",
+        "perspective": "Jane Doe",
+        "provenance": "[The New York Times](nyt)",
+        "messages": [
+          {
+            "sender": "Roommate",
+            "time": "3:05 AM",
+            "text": "Are you coming home tonight?"
+          },
+          {
+            "sender": "Jane Doe",
+            "time": "3:09 AM",
+            "text": "[Reply not quoted]",
+            "note": "Described as saying she was unsure"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt"
     ]
-   }
-  ],
-  "sources": [
-   "complaint",
-   "nbc",
-   "cbs-snap",
-   "kcm"
-  ]
- },
- {
-  "id": "room-fills",
-  "date": "2024-10-20c",
-  "dateLabel": "Oct 20, 2024",
-  "time": "After 1:42 AM",
-  "category": "night",
-  "title": "Members enter the room; ketamine poured over her body",
-  "summary": [
-   "The complaint says several more members then came in. She hid under the covers, her phone out of reach across the room. Diego Sarabia grabbed her face and kissed her until she pushed him away ([¶¶ 164–166](complaint@28)).",
-   "Newell allegedly made her snort a line of ketamine off his body. Then, as she lay on the bed, all seven defendants (Ingalls, Newell, Lee, Lopes, Sarabia, Norris and Kretzschmar) allegedly poured lines of ketamine over her and snorted them ([¶¶ 167–169](complaint@28))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint"
-  ]
- },
- {
-  "id": "roommate",
-  "date": "2024-10-20d",
-  "dateLabel": "Oct 20, 2024",
-  "time": "3:05 AM",
-  "category": "night",
-  "title": "Her roommate checks in",
-  "summary": [
-   "[The New York Times](nyt) reports a text from her roommate at 3:05 a.m. Doe answered at 3:09 a.m. that she wasn't sure. The Times did not quote her reply."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Roommate → Jane Doe",
-    "contact": "Roommate",
-    "perspective": "Jane Doe",
-    "provenance": "[The New York Times](nyt)",
-    "messages": [
-     {
-      "sender": "Roommate",
-      "time": "3:05 AM",
-      "text": "Are you coming home tonight?"
-     },
-     {
-      "sender": "Jane Doe",
-      "time": "3:09 AM",
-      "text": "[Reply not quoted]",
-      "note": "Described as saying she was unsure"
-     }
+  },
+  {
+    "id": "second-room",
+    "date": "2024-10-20e",
+    "dateLabel": "Oct 20, 2024",
+    "time": "Until ≈ 5:45 AM",
+    "category": "night",
+    "title": "Moved to a second room; loses consciousness",
+    "summary": [
+      "According to the complaint, the other five left, and Ingalls and Winston Lee took her to a smaller room believed to be the chapter president's office. There they gave her more ketamine and, while she was \"completely incapacitated,\" forced oral and vaginal sex on her at the same time. The assault ended at about 5:45 a.m., when she lost consciousness ([¶¶ 170–174](complaint@28))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint"
     ]
-   }
-  ],
-  "sources": [
-   "nyt"
-  ]
- },
- {
-  "id": "second-room",
-  "date": "2024-10-20e",
-  "dateLabel": "Oct 20, 2024",
-  "time": "Until ≈ 5:45 AM",
-  "category": "night",
-  "title": "Moved to a second room; loses consciousness",
-  "summary": [
-   "According to the complaint, the other five left, and Ingalls and Winston Lee took her to a smaller room believed to be the chapter president's office. There they gave her more ketamine and, while she was \"completely incapacitated,\" forced oral and vaginal sex on her at the same time. The assault ended at about 5:45 a.m., when she lost consciousness ([¶¶ 170–174](complaint@28))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint"
-  ]
- },
- {
-  "id": "morning-after",
-  "date": "2024-10-20f",
-  "dateLabel": "Oct 20, 2024",
-  "time": "Later that day",
-  "category": "aftermath",
-  "title": "Back at the sorority house",
-  "summary": [
-   "The complaint says she woke in shock and went back to the Tri Delta house, where she found a large bruise on her buttocks and took medication for a UTI. That day she learned the night was \"becoming public knowledge\" on campus ([¶¶ 175–178](complaint@29))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint"
-  ]
- },
- {
-  "id": "newell-apology",
-  "date": "2024-10-21",
-  "dateLabel": "Oct 21, 2024",
-  "category": "aftermath",
-  "title": "Newell apologizes by text",
-  "summary": [
-   "The day after, Jonathan Newell texted her an apology; screenshots of the full exchange (timestamps \"Mon, Oct 21 at 22:05\") were published by TMZ. Her reply described the night as legal. [redacted] marks redactions present in the TMZ-published screenshots themselves."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Jonathan Newell ↔ Jane Doe",
-    "contact": "Jonathan Newell",
-    "perspective": "Jane Doe",
-    "provenance": "Full texts as shown in TMZ-published screenshots (via [IG reel](reel-tmz-texts)); excerpts also published by [The New York Times](nyt) and CBS ([cbs-texts]). Transcribed verbatim, including original spelling and capitalization.",
-    "messages": [
-     {
-      "sender": "Jonathan Newell",
-      "text": "Hey [redacted] this is Jonathan [redacted] gave me ur number. I just wanted to apologize for how things went down the other night. My memory's kinda fuzzy abt a lot of it but me and Matt both feel like sl[redacted] for being too f[redacted] up to shut it down and kick people out before it got way out of hand. You're an amazing person and I genuinely hope ur not catching as much heat from this as we r. We've been shutting down any stories we've heard but again I'm so so sorry."
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "aw jonathan i really appreciate this text. my memories super clouded too. i think we were all way to f[redacted] drunk and high. i'm getting a little heat (pi phi girls ([redacted] and [redacted]) can't get my name out of their mouth)) but that's to be expected. but at the end of the day non of the sexual stuff was illegal and honestly i really liked being w u and matt. so anything anyone has to say about the gamgbang is out of their jurisdiction. i don't think we should feel any shame for the part. our body our choice asf,,"
-     }
+  },
+  {
+    "id": "morning-after",
+    "date": "2024-10-20f",
+    "dateLabel": "Oct 20, 2024",
+    "time": "Later that day",
+    "category": "aftermath",
+    "title": "Back at the sorority house",
+    "summary": [
+      "The complaint says she woke in shock and went back to the Tri Delta house, where she found a large bruise on her buttocks and took medication for a UTI. That day she learned the night was \"becoming public knowledge\" on campus ([¶¶ 175–178](complaint@29))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint"
     ]
-   }
-  ],
-  "sources": [
-   "nyt",
-   "cbs-texts",
-   "reel-tmz-texts"
-  ]
- },
- {
-  "id": "cornell-health",
-  "date": "2024-10-22",
-  "dateLabel": "Oct 22, 2024",
-  "category": "aftermath",
-  "title": "Cornell Health visit",
-  "summary": [
-   "She was seen at Cornell Health for a UTI and STI testing and was not referred for a rape kit ([CBS](cbs-texts))."
-  ],
-  "chains": [],
-  "sources": [
-   "cbs-texts"
-  ]
- },
- {
-  "id": "oct-23",
-  "date": "2024-10-23",
-  "dateLabel": "Oct 23, 2024",
-  "category": "aftermath",
-  "title": "\"RUINING my life temporarily\"",
-  "summary": [
-   "As rumors spread, she texted Ingalls, and also a fraternity member whom [ABC News](abc) identifies only as \"Male No. 1\". [NBC News](nbc), reporting the same messages, describes him as another fraternity member and places them four days after the alleged assault."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Jane Doe → Matthew Ingalls",
-    "contact": "Matthew Ingalls",
-    "perspective": "Jane Doe",
-    "provenance": "[The New York Times](nyt) and [CBS News](cbs-texts). Fragments joined by ellipses as published",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "Bro…everyone knows…RUINING my life temporarily…sleep and cry all day"
-     }
+  },
+  {
+    "id": "newell-apology",
+    "date": "2024-10-21",
+    "dateLabel": "Oct 21, 2024",
+    "category": "aftermath",
+    "title": "Newell apologizes by text",
+    "summary": [
+      "The day after, Jonathan Newell texted her an apology; screenshots of the full exchange (timestamps \"Mon, Oct 21 at 22:05\") were published by TMZ. Her reply described the night as legal. [redacted] marks redactions present in the TMZ-published screenshots themselves."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Jonathan Newell ↔ Jane Doe",
+        "contact": "Jonathan Newell",
+        "perspective": "Jane Doe",
+        "provenance": "Full texts as shown in TMZ-published screenshots (via [IG reel](reel-tmz-texts)); excerpts also published by [The New York Times](nyt) and CBS ([cbs-texts]). Transcribed verbatim, including original spelling and capitalization.",
+        "messages": [
+          {
+            "sender": "Jonathan Newell",
+            "text": "Hey [redacted] this is Jonathan [redacted] gave me ur number. I just wanted to apologize for how things went down the other night. My memory's kinda fuzzy abt a lot of it but me and Matt both feel like sl[redacted] for being too f[redacted] up to shut it down and kick people out before it got way out of hand. You're an amazing person and I genuinely hope ur not catching as much heat from this as we r. We've been shutting down any stories we've heard but again I'm so so sorry."
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "aw jonathan i really appreciate this text. my memories super clouded too. i think we were all way to f[redacted] drunk and high. i'm getting a little heat (pi phi girls ([redacted] and [redacted]) can't get my name out of their mouth)) but that's to be expected. but at the end of the day non of the sexual stuff was illegal and honestly i really liked being w u and matt. so anything anyone has to say about the gamgbang is out of their jurisdiction. i don't think we should feel any shame for the part. our body our choice asf,,"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "also yes while it may have been nice for like only 4 people to have been around, yall were both super out of it and they should have taken it on themselves to leave. at the end of the day you, matt, and i were in your bed and they didn't need to get up in that.\n\nbut if you have any regrets or anything you want to talk about i am always here to talk about it cause that was a lot. i really do love u and matt and i promise i wont get quiet and weird w u like i did last time <4"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt",
+      "cbs-texts",
+      "reel-tmz-texts"
     ]
-   },
-   {
-    "platform": "sms",
-    "thread": "Jane Doe → \"Male No. 1\"",
-    "contact": "Male No. 1",
-    "perspective": "Jane Doe",
-    "provenance": "[NBC News](nbc) and [ABC News](abc). Censoring as published by NBC",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "My reputation is destroyed and i'm utterly ashamed."
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "I'm f------g pissed cause this many people shouldn't know and i feel like i know who some of the rats in the room were"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "if i ever find out i swear to god its in sight."
-     }
+  },
+  {
+    "id": "cornell-health",
+    "date": "2024-10-22",
+    "dateLabel": "Oct 22, 2024",
+    "category": "aftermath",
+    "title": "Cornell Health visit",
+    "summary": [
+      "She was seen at Cornell Health for a UTI and STI testing and was not referred for a rape kit ([CBS](cbs-texts))."
+    ],
+    "chains": [],
+    "sources": [
+      "cbs-texts"
     ]
-   }
-  ],
-  "sources": [
-   "nyt",
-   "cbs-texts",
-   "abc",
-   "nbc"
-  ]
- },
- {
-  "id": "oct-25",
-  "date": "2024-10-25",
-  "dateLabel": "Oct 25, 2024",
-  "category": "aftermath",
-  "title": "\"U good?\"",
-  "summary": [
-   "Ingalls checked in. She told him Newell had \"def told people\" ([NYT](nyt))."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Matthew Ingalls ↔ Jane Doe",
-    "contact": "Matthew Ingalls",
-    "perspective": "Jane Doe",
-    "provenance": "[The New York Times](nyt)",
-    "messages": [
-     {
-      "sender": "Matthew Ingalls",
-      "text": "U good?"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "…def told people",
-      "note": "Fragment; the Times paraphrases the rest"
-     }
+  },
+  {
+    "id": "oct-23",
+    "date": "2024-10-23",
+    "dateLabel": "Oct 23, 2024",
+    "category": "aftermath",
+    "title": "\"RUINING my life temporarily\"",
+    "summary": [
+      "As rumors spread, she texted Ingalls, and also a fraternity member whom [ABC News](abc) identifies only as \"Male No. 1\". [NBC News](nbc), reporting the same messages, describes him as another fraternity member and places them four days after the alleged assault."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Jane Doe → Matthew Ingalls",
+        "contact": "Matthew Ingalls",
+        "perspective": "Jane Doe",
+        "provenance": "[The New York Times](nyt) and [CBS News](cbs-texts). Fragments joined by ellipses as published",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "Bro…everyone knows…RUINING my life temporarily…sleep and cry all day"
+          }
+        ]
+      },
+      {
+        "platform": "sms",
+        "thread": "Jane Doe → \"Male No. 1\"",
+        "contact": "Male No. 1",
+        "perspective": "Jane Doe",
+        "provenance": "[NBC News](nbc) and [ABC News](abc). Censoring as published by NBC",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "My reputation is destroyed and i'm utterly ashamed."
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "I'm f------g pissed cause this many people shouldn't know and i feel like i know who some of the rats in the room were"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "if i ever find out i swear to god its in sight."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt",
+      "cbs-texts",
+      "abc",
+      "nbc"
     ]
-   }
-  ],
-  "sources": [
-   "nyt"
-  ]
- },
- {
-  "id": "halloween",
-  "date": "2024-10-29",
-  "dateLabel": "Late Oct 2024",
-  "category": "aftermath",
-  "title": "Welcomed, then disinvited; she learns about the group chat",
-  "summary": [
-   "Ingalls told her she was still welcome at Chi Phi. The chapter president then called to disinvite her from the Halloween party ([NYT](nyt)).",
-   "Around this time she learned how many men had been involved. [CBS](cbs-texts) reports she saw online comments about an alleged gang rape. Her lawyer, Thomas Giuffra, told [NBC News](nbc) she learned of the Snapchat messages only when another fraternity member, outraged by what his brothers were said to have done, leaked them to her."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Matthew Ingalls → Jane Doe",
-    "contact": "Matthew Ingalls",
-    "perspective": "Jane Doe",
-    "provenance": "[The New York Times](nyt)",
-    "messages": [
-     {
-      "sender": "Matthew Ingalls",
-      "text": "chi phi is your house and you are welcome here"
-     }
+  },
+  {
+    "id": "oct-25",
+    "date": "2024-10-25",
+    "dateLabel": "Oct 25, 2024",
+    "category": "aftermath",
+    "title": "\"U good?\"",
+    "summary": [
+      "Ingalls checked in. She told him Newell had \"def told people\" ([NYT](nyt))."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Matthew Ingalls ↔ Jane Doe",
+        "contact": "Matthew Ingalls",
+        "perspective": "Jane Doe",
+        "provenance": "[The New York Times](nyt)",
+        "messages": [
+          {
+            "sender": "Matthew Ingalls",
+            "text": "U good?"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "…def told people",
+            "note": "Fragment; the Times paraphrases the rest"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt"
     ]
-   }
-  ],
-  "sources": [
-   "nyt",
-   "cbs-texts",
-   "nbc"
-  ]
- },
- {
-  "id": "oct-30",
-  "date": "2024-10-30",
-  "dateLabel": "Oct 30, 2024",
-  "category": "aftermath",
-  "title": "\"yall aren't my friends\"",
-  "summary": [],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Jane Doe → \"Male No. 1\"",
-    "contact": "Male No. 1",
-    "perspective": "Jane Doe",
-    "provenance": "[ABC News](abc) and [NBC News](nbc)",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "i knew this was going to happen. the woman will always get the short end of the stick"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "yall aren't my friends. yall are covering your asses.",
-      "note": "ABC prints the last word as \"a****\""
-     }
+  },
+  {
+    "id": "halloween",
+    "date": "2024-10-29",
+    "dateLabel": "Late Oct 2024",
+    "category": "aftermath",
+    "title": "Welcomed, then disinvited; she learns about the group chat",
+    "summary": [
+      "Ingalls told her she was still welcome at Chi Phi. The chapter president then called to disinvite her from the Halloween party ([NYT](nyt)).",
+      "Around this time she learned how many men had been involved. [CBS](cbs-texts) reports she saw online comments about an alleged gang rape. Her lawyer, Thomas Giuffra, told [NBC News](nbc) she learned of the Snapchat messages only when another fraternity member, outraged by what his brothers were said to have done, leaked them to her."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Matthew Ingalls → Jane Doe",
+        "contact": "Matthew Ingalls",
+        "perspective": "Jane Doe",
+        "provenance": "[The New York Times](nyt)",
+        "messages": [
+          {
+            "sender": "Matthew Ingalls",
+            "text": "chi phi is your house and you are welcome here"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt",
+      "cbs-texts",
+      "nbc"
     ]
-   }
-  ],
-  "sources": [
-   "abc",
-   "nbc"
-  ]
- },
- {
-  "id": "nov-3",
-  "date": "2024-11-03",
-  "dateLabel": "Nov 3, 2024",
-  "category": "aftermath",
-  "title": "\"90% of what happened that night was not consensual\"",
-  "summary": [
-   "She texted Newell to dispute the idea that the night was consensual ([NYT](nyt)). [CBS](cbs-texts) reports she also wrote that she \"felt like a sex doll/worker.\""
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Jane Doe → Johnathan Newell",
-    "contact": "Johnathan Newell",
-    "perspective": "Jane Doe",
-    "provenance": "[The New York Times](nyt) and [CBS News](cbs-texts). Excerpts as published",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "let's be clear that 90% of what happened that night was not consensual"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "…felt like a sex doll/worker",
-      "note": "Per CBS; fragment"
-     }
+  },
+  {
+    "id": "oct-30",
+    "date": "2024-10-30",
+    "dateLabel": "Oct 30, 2024",
+    "category": "aftermath",
+    "title": "\"yall aren't my friends\"",
+    "summary": [],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Jane Doe → \"Male No. 1\"",
+        "contact": "Male No. 1",
+        "perspective": "Jane Doe",
+        "provenance": "[ABC News](abc) and [NBC News](nbc)",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "i knew this was going to happen. the woman will always get the short end of the stick"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "yall aren't my friends. yall are covering your asses.",
+            "note": "ABC prints the last word as \"a****\""
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "abc",
+      "nbc"
     ]
-   }
-  ],
-  "sources": [
-   "nyt",
-   "cbs-texts"
-  ]
- },
- {
-  "id": "nov-7",
-  "date": "2024-11-07",
-  "dateLabel": "Nov 7, 2024",
-  "category": "aftermath",
-  "title": "Emergency room and rape kit; \"rumors i was gang banged\"",
-  "summary": [
-   "She went to an Ithaca emergency room and asked for a rape kit. By then, [CBS](cbs-texts) reports, no DNA evidence was left. Around the same time, \"Male No. 1\" raised the risk of being labeled an assaulter, and she told him she hadn't said anything ([ABC](abc); [NBC](nbc))."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "\"Male No. 1\" ↔ Jane Doe",
-    "contact": "Male No. 1",
-    "perspective": "Jane Doe",
-    "provenance": "[ABC News](abc) and [NBC News](nbc). Order follows NBC's account",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "…it'll get better",
-      "note": "Fragment; NBC says she was agreeing with him"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "everyone needs to grow up cause sexuality and sex and s--t is changing and stuff like this is going to become more common.",
-      "note": "NBC dates this to around Nov 7; ABC places a shorter version on Oct 23"
-     },
-     {
-      "sender": "Male No. 1",
-      "text": "…being labeled an assaulter…",
-      "note": "Fragment"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "I haven't said anything"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "i do know people are changing the narrative because like in any sexual scenario w one woman and many men the woman was probably victim"
-     },
-     {
-      "sender": "Jane Doe",
-      "text": "i know there are rumors i was gang banged."
-     }
+  },
+  {
+    "id": "nov-3",
+    "date": "2024-11-03",
+    "dateLabel": "Nov 3, 2024",
+    "category": "aftermath",
+    "title": "\"90% of what happened that night was not consensual\"",
+    "summary": [
+      "She texted Newell to dispute the idea that the night was consensual ([NYT](nyt)). [CBS](cbs-texts) reports she also wrote that she \"felt like a sex doll/worker.\""
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Jane Doe → Johnathan Newell",
+        "contact": "Johnathan Newell",
+        "perspective": "Jane Doe",
+        "provenance": "[The New York Times](nyt) and [CBS News](cbs-texts). Excerpts as published",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "let's be clear that 90% of what happened that night was not consensual"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "…felt like a sex doll/worker",
+            "note": "Per CBS; fragment"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt",
+      "cbs-texts"
     ]
-   }
-  ],
-  "sources": [
-   "nyt",
-   "cbs-texts",
-   "abc",
-   "nbc"
-  ]
- },
- {
-  "id": "nov-8",
-  "date": "2024-11-08",
-  "dateLabel": "Nov 8, 2024",
-  "category": "investigation",
-  "title": "Police report; chapter and all seven temporarily suspended",
-  "summary": [
-   "Encouraged by friends, she reported to the Cornell University Police Department. The same day Cornell put the Xi Chapter on temporary suspension and temporarily suspended all seven men, who the complaint says were allowed to mitigate their conduct by submitting essays ([¶¶ 179–181](complaint@29)). Cornell denies that essays were ever the only consequence ([Cornell FAQ](cu-faq); [Daily Sun](sun-essays))."
-  ],
-  "chains": [
-   {
-    "platform": "sms",
-    "thread": "Jane Doe → \"Male No. 1\"",
-    "contact": "Male No. 1",
-    "perspective": "Jane Doe",
-    "provenance": "[ABC News](abc) and [NBC News](nbc)",
-    "messages": [
-     {
-      "sender": "Jane Doe",
-      "text": "i think i'm done talking to you. i know you lied."
-     }
+  },
+  {
+    "id": "nov-7",
+    "date": "2024-11-07",
+    "dateLabel": "Nov 7, 2024",
+    "category": "aftermath",
+    "title": "Emergency room and rape kit; \"rumors i was gang banged\"",
+    "summary": [
+      "She went to an Ithaca emergency room and asked for a rape kit. By then, [CBS](cbs-texts) reports, no DNA evidence was left. Around the same time, \"Male No. 1\" raised the risk of being labeled an assaulter, and she told him she hadn't said anything ([ABC](abc); [NBC](nbc))."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "\"Male No. 1\" ↔ Jane Doe",
+        "contact": "Male No. 1",
+        "perspective": "Jane Doe",
+        "provenance": "[ABC News](abc) and [NBC News](nbc). Order follows NBC's account",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "…it'll get better",
+            "note": "Fragment; NBC says she was agreeing with him"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "everyone needs to grow up cause sexuality and sex and s--t is changing and stuff like this is going to become more common.",
+            "note": "NBC dates this to around Nov 7; ABC places a shorter version on Oct 23"
+          },
+          {
+            "sender": "Male No. 1",
+            "text": "…being labeled an assaulter…",
+            "note": "Fragment"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "I haven't said anything"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "i do know people are changing the narrative because like in any sexual scenario w one woman and many men the woman was probably victim"
+          },
+          {
+            "sender": "Jane Doe",
+            "text": "i know there are rumors i was gang banged."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "nyt",
+      "cbs-texts",
+      "abc",
+      "nbc"
     ]
-   }
-  ],
-  "sources": [
-   "complaint",
-   "abc",
-   "sun-essays",
-   "cu-faq",
-   "nbc"
-  ]
- },
- {
-  "id": "interviews",
-  "date": "2024-11-14",
-  "dateLabel": "Nov 14–15, 2024",
-  "category": "investigation",
-  "title": "CUPD interviews",
-  "summary": [
-   "Over two days she gave Cornell police an interview that produced a [transcript of about 120 pages](cupd-transcript), saying, \"I can say with 100% confidence I was raped\" ([CBS](cbs-texts)). Investigators also prepared a [six-page sworn statement](sworn-statement)."
-  ],
-  "chains": [],
-  "sources": [
-   "cbs-texts",
-   "abc"
-  ]
- },
- {
-  "id": "da-declines",
-  "date": "2024-11-20",
-  "dateLabel": "Nov 2024",
-  "category": "investigation",
-  "title": "District Attorney declines to prosecute",
-  "summary": [
-   "Tompkins County District Attorney Matthew Van Houten declined to bring charges. He relied on the [six-page sworn statement](sworn-statement), which he says described the conduct as \"voluntary, conscious, and consensual,\" and he says he never saw the full interview transcript ([DA statement](da); [CBS](cbs-details))."
-  ],
-  "chains": [],
-  "sources": [
-   "da",
-   "cbs-details",
-   "abc"
-  ]
- },
- {
-  "id": "cornell-statement",
-  "date": "2024-11-26",
-  "dateLabel": "Nov 26, 2024",
-  "category": "campus",
-  "title": "Cornell's public statement",
-  "summary": [
-   "In a [statement](cu-2024) titled \"Update on disturbing allegations of sexual violence,\" Interim President Michael I. Kotlikoff addressed \"serious and deeply disturbing allegations of drug abuse and sexual violence\" at Chi Phi. The chapter remained under the suspension issued November 8 ([¶ 182](complaint@29))."
-  ],
-  "chains": [],
-  "sources": [
-   "cu-2024",
-   "complaint"
-  ]
- },
- {
-  "id": "title-ix-opens",
-  "date": "2025-01-14",
-  "dateLabel": "Jan 14, 2025",
-  "category": "campus",
-  "title": "Title IX investigation opens",
-  "summary": [
-   "Cornell's Title IX office opened an investigation in response to her formal complaint ([¶ 183](complaint@29))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint",
-   "abc"
-  ]
- },
- {
-  "id": "task-force",
-  "date": "2025-02-06",
-  "dateLabel": "Feb 6, 2025",
-  "category": "campus",
-  "title": "Presidential task force on campus sexual assault",
-  "summary": [
-   "Cornell created a presidential task force on campus sexual assault ([ABC](abc))."
-  ],
-  "chains": [],
-  "sources": [
-   "abc"
-  ]
- },
- {
-  "id": "hearings",
-  "date": "2025-05-02",
-  "dateLabel": "May 2–29, 2025",
-  "category": "campus",
-  "title": "Title IX hearings and outcomes",
-  "summary": [
-   "Cornell held at least twelve hearings ([¶ 184](complaint@30)), drawing on about 50 interviews ([ABC](abc)). President Kotlikoff later gave the outcomes: two students expelled, two suspended for at least two semesters, two found not responsible for sexual misconduct, and one who had already graduated ([CBS](cbs-details)).",
-   "Citing federal privacy law, Cornell has not said which outcome applied to whom ([Cornell FAQ](cu-faq)). [NBC](nbc) reports that Scott Kretzschmar was found responsible for \"attempted sexual exploitation.\""
-  ],
-  "chains": [],
-  "sources": [
-   "complaint",
-   "abc",
-   "cbs-details",
-   "nbc",
-   "cu-faq"
-  ]
- },
- {
-  "id": "survey",
-  "date": "2025-11-04",
-  "dateLabel": "Nov 4, 2025",
-  "category": "campus",
-  "title": "Campus sexual misconduct survey",
-  "summary": [
-   "Cornell's 2025 survey found that 35% of undergraduate women reported nonconsensual sexual contact. The complaint cites the survey ([¶ 185](complaint@30))."
-  ],
-  "chains": [],
-  "sources": [
-   "abc",
-   "complaint"
-  ]
- },
- {
-  "id": "complaint-filed",
-  "date": "2026-09-14",
-  "dateLabel": "Sept 14, 2026",
-  "category": "litigation",
-  "title": "Civil complaint filed in New York County",
-  "summary": [
-   "The 101-page [complaint](complaint@1) is dated September 14, 2026 ([p. 101](complaint@101)). Some outlets, including [ABC](abc) and [TIME](time), report a filing date of September 16. Its [caption](complaint@3) names Cornell; Chi Phi's chapter house association, national fraternity and educational trust; Delta Delta Delta and its Alpha Beta house corporation; Moonies; former chapter president Orazio Petito; John Doe faculty, alumni and executive-board members; and the seven men.",
-   "The complaint pleads causes of action for negligence; negligent retention and supervision; breach of contract; violations of the New York State Human Rights Law; sexual assault; sexual battery; intentional and negligent infliction of emotional distress; and violations of the Dram Shop Act. It seeks compensatory and punitive damages and a jury trial ([prayer for relief](complaint@100))."
-  ],
-  "chains": [],
-  "sources": [
-   "complaint",
-   "fl1",
-   "sun-suit"
-  ]
- },
- {
-  "id": "da-reopens",
-  "date": "2026-09-28",
-  "dateLabel": "Sept 28, 2026",
-  "category": "investigation",
-  "title": "DA reopens the case for a grand jury",
-  "summary": [
-   "Van Houten [assigned](da) a senior sex-crimes prosecutor to present the case to a grand jury. He says his office never received the group-chat image. Plaintiff's counsel says it was given to authorities in 2024 ([NPR](npr))."
-  ],
-  "chains": [],
-  "sources": [
-   "da",
-   "npr",
-   "abc"
-  ]
- },
- {
-  "id": "faq-review",
-  "date": "2026-09-29",
-  "dateLabel": "Sept 29–30, 2026",
-  "category": "campus",
-  "title": "Cornell FAQ; independent review",
-  "summary": [
-   "Cornell published an [FAQ](cu-faq) saying the Snapchat screenshot had been given to the DA, which the DA disputes. Cornell later edited the FAQ ([Daily Sun](sun-faq)). Gov. Kathy Hochul called for an independent review, and Cornell agreed to retain outside counsel ([ABC](abc); [CBS](cbs-details))."
-  ],
-  "chains": [],
-  "sources": [
-   "cu-faq",
-   "sun-faq",
-   "abc",
-   "cbs-details"
-  ]
- },
- {
-  "id": "special-prosecutor",
-  "date": "2026-10-01",
-  "dateLabel": "Oct 1, 2026",
-  "category": "investigation",
-  "title": "Attorney General named special prosecutor",
-  "summary": [
-   "By executive order, Gov. Hochul made New York Attorney General Letitia James special prosecutor, with authority to investigate and, if warranted, prosecute ([Daily Sun](sun-ag); [CBS](cbs-details))."
-  ],
-  "chains": [],
-  "sources": [
-   "sun-ag",
-   "cbs-details",
-   "abc"
-  ]
- }
+  },
+  {
+    "id": "nov-8",
+    "date": "2024-11-08",
+    "dateLabel": "Nov 8, 2024",
+    "category": "investigation",
+    "title": "Police report; chapter and all seven temporarily suspended",
+    "summary": [
+      "Encouraged by friends, she reported to the Cornell University Police Department. The same day Cornell put the Xi Chapter on temporary suspension and temporarily suspended all seven men, who the complaint says were allowed to mitigate their conduct by submitting essays ([¶¶ 179–181](complaint@29)). Cornell denies that essays were ever the only consequence ([Cornell FAQ](cu-faq); [Daily Sun](sun-essays))."
+    ],
+    "chains": [
+      {
+        "platform": "sms",
+        "thread": "Jane Doe → \"Male No. 1\"",
+        "contact": "Male No. 1",
+        "perspective": "Jane Doe",
+        "provenance": "[ABC News](abc) and [NBC News](nbc)",
+        "messages": [
+          {
+            "sender": "Jane Doe",
+            "text": "i think i'm done talking to you. i know you lied."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "complaint",
+      "abc",
+      "sun-essays",
+      "cu-faq",
+      "nbc"
+    ]
+  },
+  {
+    "id": "interviews",
+    "date": "2024-11-14",
+    "dateLabel": "Nov 14–15, 2024",
+    "category": "investigation",
+    "title": "CUPD interviews",
+    "summary": [
+      "Over two days she gave Cornell police an interview that produced a [transcript of about 120 pages](cupd-transcript), saying, \"I can say with 100% confidence I was raped\" ([CBS](cbs-texts)). Investigators also prepared a [six-page sworn statement](sworn-statement)."
+    ],
+    "chains": [],
+    "sources": [
+      "cbs-texts",
+      "abc"
+    ]
+  },
+  {
+    "id": "da-declines",
+    "date": "2024-11-20",
+    "dateLabel": "Nov 2024",
+    "category": "investigation",
+    "title": "District Attorney declines to prosecute",
+    "summary": [
+      "Tompkins County District Attorney Matthew Van Houten declined to bring charges. He relied on the [six-page sworn statement](sworn-statement), which he says described the conduct as \"voluntary, conscious, and consensual,\" and he says he never saw the full interview transcript ([DA statement](da); [CBS](cbs-details))."
+    ],
+    "chains": [],
+    "sources": [
+      "da",
+      "cbs-details",
+      "abc"
+    ]
+  },
+  {
+    "id": "cornell-statement",
+    "date": "2024-11-26",
+    "dateLabel": "Nov 26, 2024",
+    "category": "campus",
+    "title": "Cornell's public statement",
+    "summary": [
+      "In a [statement](cu-2024) titled \"Update on disturbing allegations of sexual violence,\" Interim President Michael I. Kotlikoff addressed \"serious and deeply disturbing allegations of drug abuse and sexual violence\" at Chi Phi. The chapter remained under the suspension issued November 8 ([¶ 182](complaint@29))."
+    ],
+    "chains": [],
+    "sources": [
+      "cu-2024",
+      "complaint"
+    ]
+  },
+  {
+    "id": "title-ix-opens",
+    "date": "2025-01-14",
+    "dateLabel": "Jan 14, 2025",
+    "category": "campus",
+    "title": "Title IX investigation opens",
+    "summary": [
+      "Cornell's Title IX office opened an investigation in response to her formal complaint ([¶ 183](complaint@29))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint",
+      "abc"
+    ]
+  },
+  {
+    "id": "task-force",
+    "date": "2025-02-06",
+    "dateLabel": "Feb 6, 2025",
+    "category": "campus",
+    "title": "Presidential task force on campus sexual assault",
+    "summary": [
+      "Cornell created a presidential task force on campus sexual assault ([ABC](abc))."
+    ],
+    "chains": [],
+    "sources": [
+      "abc"
+    ]
+  },
+  {
+    "id": "hearings",
+    "date": "2025-05-02",
+    "dateLabel": "May 2–29, 2025",
+    "category": "campus",
+    "title": "Title IX hearings and outcomes",
+    "summary": [
+      "Cornell held at least twelve hearings ([¶ 184](complaint@30)), drawing on about 50 interviews ([ABC](abc)). President Kotlikoff later gave the outcomes: two students expelled, two suspended for at least two semesters, two found not responsible for sexual misconduct, and one who had already graduated ([CBS](cbs-details)).",
+      "Citing federal privacy law, Cornell has not said which outcome applied to whom ([Cornell FAQ](cu-faq)). [NBC](nbc) reports that Scott Kretzschmar was found responsible for \"attempted sexual exploitation.\""
+    ],
+    "chains": [],
+    "sources": [
+      "complaint",
+      "abc",
+      "cbs-details",
+      "nbc",
+      "cu-faq"
+    ]
+  },
+  {
+    "id": "survey",
+    "date": "2025-11-04",
+    "dateLabel": "Nov 4, 2025",
+    "category": "campus",
+    "title": "Campus sexual misconduct survey",
+    "summary": [
+      "Cornell's 2025 survey found that 35% of undergraduate women reported nonconsensual sexual contact. The complaint cites the survey ([¶ 185](complaint@30))."
+    ],
+    "chains": [],
+    "sources": [
+      "abc",
+      "complaint"
+    ]
+  },
+  {
+    "id": "complaint-filed",
+    "date": "2026-09-14",
+    "dateLabel": "Sept 14, 2026",
+    "category": "litigation",
+    "title": "Civil complaint filed in New York County",
+    "summary": [
+      "The 101-page [complaint](complaint@1) is dated September 14, 2026 ([p. 101](complaint@101)). Some outlets, including [ABC](abc) and [TIME](time), report a filing date of September 16. Its [caption](complaint@3) names Cornell; Chi Phi's chapter house association, national fraternity and educational trust; Delta Delta Delta and its Alpha Beta house corporation; Moonies; former chapter president Orazio Petito; John Doe faculty, alumni and executive-board members; and the seven men.",
+      "The complaint pleads causes of action for negligence; negligent retention and supervision; breach of contract; violations of the New York State Human Rights Law; sexual assault; sexual battery; intentional and negligent infliction of emotional distress; and violations of the Dram Shop Act. It seeks compensatory and punitive damages and a jury trial ([prayer for relief](complaint@100))."
+    ],
+    "chains": [],
+    "sources": [
+      "complaint",
+      "fl1",
+      "sun-suit"
+    ]
+  },
+  {
+    "id": "da-reopens",
+    "date": "2026-09-28",
+    "dateLabel": "Sept 28, 2026",
+    "category": "investigation",
+    "title": "DA reopens the case for a grand jury",
+    "summary": [
+      "Van Houten [assigned](da) a senior sex-crimes prosecutor to present the case to a grand jury. He says his office never received the group-chat image. Plaintiff's counsel says it was given to authorities in 2024 ([NPR](npr))."
+    ],
+    "chains": [],
+    "sources": [
+      "da",
+      "npr",
+      "abc"
+    ]
+  },
+  {
+    "id": "faq-review",
+    "date": "2026-09-29",
+    "dateLabel": "Sept 29–30, 2026",
+    "category": "campus",
+    "title": "Cornell FAQ; independent review",
+    "summary": [
+      "Cornell published an [FAQ](cu-faq) saying the Snapchat screenshot had been given to the DA, which the DA disputes. Cornell later edited the FAQ ([Daily Sun](sun-faq)). Gov. Kathy Hochul called for an independent review, and Cornell agreed to retain outside counsel ([ABC](abc); [CBS](cbs-details))."
+    ],
+    "chains": [],
+    "sources": [
+      "cu-faq",
+      "sun-faq",
+      "abc",
+      "cbs-details"
+    ]
+  },
+  {
+    "id": "special-prosecutor",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 1, 2026",
+    "category": "investigation",
+    "title": "Attorney General named special prosecutor",
+    "summary": [
+      "By executive order, Gov. Hochul made New York Attorney General Letitia James special prosecutor, with authority to investigate and, if warranted, prosecute ([Daily Sun](sun-ag); [CBS](cbs-details))."
+    ],
+    "chains": [],
+    "sources": [
+      "sun-ag",
+      "cbs-details",
+      "abc"
+    ]
+  }
 ]
